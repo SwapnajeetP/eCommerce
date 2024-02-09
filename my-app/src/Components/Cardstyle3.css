@@ -1,0 +1,32 @@
+.card3-ttl {
+  padding-left: 15rem;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+  background-color: rgb(231, 231, 231);
+}
+.priceCardThird {
+  height: 380px;
+  width: 100%;
+  background-color: rgb(231, 231, 231);
+  display: flex;
+}
+.card-body-small {
+  font-size: 10px;
+  padding-left: 1rem;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.star-small {
+  font-size: 23px;
+  cursor: pointer;
+}
+.num-small {
+  font-size: 17px;
+}
+.fnt-small {
+  font-size: 20px;
+}
+.priceCardsmall {
+  display: flex;
+  background-color: rgb(231, 231, 231);
+}

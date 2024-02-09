@@ -1,0 +1,19 @@
+.div-ttl2 {
+  background-color: rgb(231, 231, 231);
+}
+.card2-ttl {
+  padding-left: 15rem;
+  margin-bottom: 0px;
+}
+.priceCardsecond {
+  height: 550px;
+  width: 100%;
+  background-color: rgb(231, 231, 231);
+  display: flex;
+}
+.priceCardanother {
+  height: 550px;
+  width: 100%;
+  background-color: rgb(231, 231, 231);
+  display: flex;
+}
