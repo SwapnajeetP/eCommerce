@@ -48,6 +48,7 @@ export default function Navbar() {
                   alt="flag"
                   width="35"
                   height="30"
+                  className="img2"
                 />
               </li>
               <li>
@@ -93,7 +94,7 @@ export default function Navbar() {
                   alt="cart"
                   width="38"
                   height="33"
-                  className="img2"
+                  className="img3"
                 />
               </li>
               <li className="nav-item">
