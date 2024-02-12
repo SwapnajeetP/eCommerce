@@ -11,20 +11,11 @@ export default function Card2() {
         </h1>
       </div>
       <div className="priceCardsecond">
-        <div
-          className="card"
-          style={{
-            width: "25rem",
-            marginTop: "3rem",
-            marginLeft: "15rem",
-            marginBottom: "29px",
-          }}
-        >
+        <div className="card card1line2">
           <img
             src="https://image.lampsplus.com/is/image/b9gt8/7y687cropped.jpg?qlt=70&wid=1200&hei=1200&fmt=jpeg"
-            className="card-img-top"
+            className="card-img-top-1"
             alt="img"
-            style={{ height: "20rem" }}
           />
           <div className="card-body">
             <h4 className="card-title">
@@ -51,20 +42,11 @@ export default function Card2() {
           </div>
         </div>
         {/* second card */}
-        <div
-          className="card "
-          style={{
-            width: "25rem",
-            marginTop: "3rem",
-            marginLeft: "5rem",
-            marginBottom: "29px",
-          }}
-        >
+        <div className="card card2line2">
           <img
             src="https://down-ph.img.susercontent.com/file/cbd8e751d1e20e0dbdf8aca764411989"
-            className="card-img-top"
+            className="card-img-top-1"
             alt="img"
-            style={{ height: "20rem" }}
           />
           <div className="card-body">
             <h4 className="card-title">
@@ -91,20 +73,11 @@ export default function Card2() {
           </div>
         </div>
         {/* Third Card */}
-        <div
-          className="card "
-          style={{
-            width: "25rem",
-            marginTop: "3rem",
-            marginLeft: "5rem",
-            marginBottom: "29px",
-          }}
-        >
+        <div className="card card3line2">
           <img
             src="https://homafy.com/wp-content/uploads/2020/07/WhatsApp-Image-2022-04-11-at-12.02.33-PM-1.jpeg"
-            className="card-img-top"
+            className="card-img-top-1"
             alt="img"
-            style={{ height: "20rem" }}
           />
           <div className="card-body">
             <h4 className="card-title">
@@ -133,18 +106,10 @@ export default function Card2() {
       </div>
       {/* New Div also fourth card */}
       <div className="priceCardanother">
-        <div
-          className="card"
-          style={{
-            width: "25rem",
-            marginTop: "0px",
-            marginLeft: "15rem",
-            marginBottom: "55px",
-          }}
-        >
+        <div className="card card1line3">
           <img
             src="https://images.unsplash.com/photo-1581166397057-235af2b3c6dd?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c2NyZXdkcml2ZXJ8ZW58MHx8MHx8fDA%3D"
-            className="card-img-top"
+            className="card-img-top-1"
             alt="img"
           />
           <div className="card-body">
@@ -172,20 +137,11 @@ export default function Card2() {
           </div>
         </div>
         {/* fifth card */}
-        <div
-          className="card"
-          style={{
-            width: "25rem",
-            marginTop: "0px",
-            marginLeft: "5rem",
-            marginBottom: "55px",
-          }}
-        >
+        <div className="card card2line3">
           <img
             src="https://m.media-amazon.com/images/I/710oliXPPuL._AC_UF1000,1000_QL80_.jpg"
-            className="card-img-top"
+            className="card-img-top-1"
             alt="img"
-            style={{ height: "20rem" }}
           />
           <div className="card-body">
             <h4 className="card-title">
@@ -212,20 +168,11 @@ export default function Card2() {
           </div>
         </div>
         {/* sixth Card */}
-        <div
-          className="card"
-          style={{
-            width: "25rem",
-            marginTop: "0px",
-            marginLeft: "5rem",
-            marginBottom: "55px",
-          }}
-        >
+        <div className="card card3line3">
           <img
             src="https://static.toiimg.com/photo/88010588.cms"
-            className="card-img-top"
+            className="card-img-top-1"
             alt="img"
-            style={{ height: "20rem" }}
           />
           <div className="card-body">
             <h4 className="card-title">

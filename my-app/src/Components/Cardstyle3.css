@@ -16,6 +16,9 @@
   padding-top: 2px;
   padding-bottom: 2px;
 }
+.card-img-top-2 {
+  height: 14rem;
+}
 .star-small {
   font-size: 23px;
   cursor: pointer;
@@ -29,4 +32,200 @@
 .priceCardsmall {
   display: flex;
   background-color: rgb(231, 231, 231);
+}
+.card1line4 {
+  width: 18rem;
+  margin-top: 10px;
+  margin-left: 15rem;
+  margin-bottom: 18px;
+}
+.card2line4 {
+  width: 18rem;
+  margin-top: 10px;
+  margin-left: 68px;
+  margin-bottom: 16px;
+}
+.card3line4 {
+  width: 18rem;
+  margin-top: 10px;
+  margin-left: 68px;
+  margin-bottom: 18px;
+}
+.card4line4 {
+  width: 18rem;
+  margin-top: 10px;
+  margin-left: 68px;
+  margin-bottom: 16px;
+}
+.card1line5 {
+  width: 18rem;
+  margin-top: 5px;
+  margin-left: 15rem;
+  margin-bottom: 18px;
+}
+.card2line5 {
+  width: 18rem;
+  margin-top: 5px;
+  margin-left: 68px;
+  margin-bottom: 18px;
+}
+.card3line5 {
+  width: 18rem;
+  margin-top: 5px;
+  margin-left: 68px;
+  margin-bottom: 18px;
+}
+.card4line5 {
+  width: 18rem;
+  margin-top: 5px;
+  margin-left: 68px;
+  margin-bottom: 18px;
+}
+@media screen and (max-width: 850px) {
+  .card3-ttl {
+    padding-left: 2rem;
+    margin-bottom: 0px;
+  }
+  .card-img-top-2 {
+    height: 100px;
+    width: 148px;
+  }
+  .priceCardThird {
+    padding-right: 1rem;
+    padding-top: 1rem;
+    height: 500px;
+    width: 100%;
+    background-color: rgb(231, 231, 231);
+    display: block;
+  }
+  .priceCardsmall {
+    padding-right: 1rem;
+    padding-top: 1rem;
+    height: 500px;
+    width: 100%;
+    background-color: rgb(231, 231, 231);
+    display: block;
+  }
+  .card1line4 {
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 2rem;
+    margin-bottom: 18px;
+    display: inline-block;
+  }
+  .card2line4 {
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 2rem;
+    margin-bottom: 16px;
+    display: inline-block;
+  }
+  .card3line4 {
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 2rem;
+    margin-bottom: 18px;
+    display: inline-block;
+  }
+  .card4line4 {
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 2rem;
+    margin-bottom: 16px;
+    display: inline-block;
+  }
+  .card1line5 {
+    width: 30%;
+    margin-top: 5px;
+    margin-left: 1rem;
+    margin-bottom: 18px;
+  }
+  .card2line5 {
+    width: 18rem;
+    margin-top: 5px;
+    margin-left: 1rem;
+    margin-bottom: 18px;
+  }
+  .card3line5 {
+    width: 18rem;
+    margin-top: 5px;
+    margin-left: 1rem;
+    margin-bottom: 18px;
+  }
+  .card4line5 {
+    width: 18rem;
+    margin-top: 5px;
+    margin-left: 1rem;
+    margin-bottom: 18px;
+  }
+  .star-small {
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .num-small {
+    font-size: 10px;
+  }
+  .fnt-small {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 850px) and (max-width: 1400px) {
+  .card3-ttl {
+    padding-left: 2rem;
+    margin-bottom: 0px;
+  }
+  .priceCardThird {
+    padding-right: 1rem;
+  }
+  .priceCardsmall {
+    padding-right: 1rem;
+  }
+  .card1line4 {
+    width: 18rem;
+    margin-top: 10px;
+    margin-left: 1rem;
+    margin-bottom: 18px;
+  }
+  .card2line4 {
+    width: 18rem;
+    margin-top: 10px;
+    margin-left: 1rem;
+    margin-bottom: 16px;
+  }
+  .card3line4 {
+    width: 18rem;
+    margin-top: 10px;
+    margin-left: 1rem;
+    margin-bottom: 18px;
+  }
+  .card4line4 {
+    width: 18rem;
+    margin-top: 10px;
+    margin-left: 1rem;
+    margin-bottom: 16px;
+  }
+  .card1line5 {
+    width: 18rem;
+    margin-top: 5px;
+    margin-left: 1rem;
+    margin-bottom: 18px;
+  }
+  .card2line5 {
+    width: 18rem;
+    margin-top: 5px;
+    margin-left: 1rem;
+    margin-bottom: 18px;
+  }
+  .card3line5 {
+    width: 18rem;
+    margin-top: 5px;
+    margin-left: 1rem;
+    margin-bottom: 18px;
+  }
+  .card4line5 {
+    width: 18rem;
+    margin-top: 5px;
+    margin-left: 1rem;
+    margin-bottom: 18px;
+  }
 }

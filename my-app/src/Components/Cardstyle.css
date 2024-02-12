@@ -16,7 +16,7 @@
 .card2line1 {
   width: 25rem;
   margin-top: 3rem;
-  margin-left: 10rem;
+  margin-left: 5rem;
   margin-bottom: 46px;
 }
 .card3line1 {
@@ -78,7 +78,7 @@
     margin-bottom: 0px;
   }
   .priceCard {
-    height: 800px;
+    height: 650px;
     width: 100%;
     background-color: rgb(231, 231, 231);
     display: block;
@@ -88,10 +88,25 @@
     height: 10rem;
   }
   .card1line1 {
-    width: 50%;
+    width: 40%;
     margin-top: 1rem;
     margin-left: 1rem;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  .card2line1 {
+    width: 40%;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  .card3line1 {
+    width: 40%;
+    margin-top: 0rem;
+    margin-left: 1rem;
     margin-bottom: 46px;
+    display: inline-block;
   }
   .star {
     font-size: 20px;
@@ -109,7 +124,7 @@
     padding-right: 1rem;
   }
   .card1-ttl {
-    padding-left: 7rem;
+    padding-left: 2rem;
     padding-top: 4rem;
     margin-bottom: 0px;
   }
