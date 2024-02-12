@@ -19,7 +19,7 @@ h2 {
   padding-top: 1rem;
   padding-left: 4rem;
 }
-.divRightBottom > img {
+img.imgSale {
   height: 275px;
   width: 370px;
   margin-left: 4rem;
@@ -49,8 +49,23 @@ h2 {
     height: 300px;
     object-fit: content;
   }
+  .rightDiv {
+    width: 60%;
+    height: 400px;
+    background-color: white;
+    margin-left: 5rem;
+  }
+  h2 {
+    padding-top: 1rem;
+    padding-left: 2rem;
+  }
+  img.imgSale {
+    height: 70%;
+    width: 70%;
+    margin-left: 2rem;
+  }
 }
-@media screen and (max-width: 1900px) {
+@media screen and (min-width: 990px) and (max-width: 1700px) {
   .carousel {
     width: 100%;
     height: 500px;
@@ -62,5 +77,11 @@ h2 {
   .c-img {
     height: 500px;
     object-fit: content;
+  }
+  .rightDiv {
+    width: 50%;
+    height: 500px;
+    background-color: white;
+    margin-left: 15rem;
   }
 }

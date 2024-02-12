@@ -92,6 +92,7 @@ export default function slideBar() {
           <img
             src="https://apparelresources.com/wp-content/uploads/2023/03/lead-Private-Vs-National-min.jpg"
             alt=""
+            className="imgSale"
           />
           <div>
             <a href="#" className="anchor">

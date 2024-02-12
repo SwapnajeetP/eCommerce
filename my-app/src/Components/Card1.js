@@ -11,15 +11,7 @@ export default function Card1() {
         </h1>
       </div>
       <div className="priceCard">
-        <div
-          className="card"
-          style={{
-            width: "25rem",
-            marginTop: "3rem",
-            marginLeft: "15rem",
-            marginBottom: "46px",
-          }}
-        >
+        <div className="card card1line1">
           <img
             src="https://images.unsplash.com/photo-1598033129183-c4f50c736f10?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             className="card-img-top"
@@ -50,15 +42,7 @@ export default function Card1() {
           </div>
         </div>
         {/* second card */}
-        <div
-          className="card "
-          style={{
-            width: "25rem",
-            marginTop: "3rem",
-            marginLeft: "5rem",
-            marginBottom: "46px",
-          }}
-        >
+        <div className="card card2line1 ">
           <img
             src="https://cdn.shopclues.com/images1/thumbnails/104158/320/320/148648730-104158193-1683641323.jpg"
             className="card-img-top"
@@ -89,15 +73,7 @@ export default function Card1() {
           </div>
         </div>
         {/* Third Card */}
-        <div
-          className="card "
-          style={{
-            width: "25rem",
-            marginTop: "3rem",
-            marginLeft: "5rem",
-            marginBottom: "46px",
-          }}
-        >
+        <div className="card card3line1">
           <img
             src="https://m.media-amazon.com/images/I/81o+BjfSuDS._SL1500_.jpg"
             className="card-img-top"
