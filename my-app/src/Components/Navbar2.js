@@ -63,7 +63,7 @@ export default function Navbar2() {
                   Fashion
                 </a>
               </li>
-              <li className="nav-item" style={{ marginLeft: "20rem" }}>
+              <li className="nav-item mx-2">
                 <a className="nav-link" href="#">
                   New Launches from Mobiles,Electronics & more | shop now
                 </a>
