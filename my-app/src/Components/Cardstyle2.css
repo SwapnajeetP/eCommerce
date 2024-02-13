@@ -58,68 +58,65 @@
 }
 @media screen and (max-width: 850px) {
   .priceCardsecond {
-    padding-right: 1rem;
-    height: 630px;
+    height: 60vw;
     width: 100%;
     background-color: rgb(231, 231, 231);
-    display: block;
+    display: flex;
   }
   .priceCardanother {
-    padding-right: 1rem;
-    height: 630px;
+    height: 60vw;
     width: 100%;
     background-color: rgb(231, 231, 231);
-    display: block;
+    display: flex;
   }
   .card2-ttl {
     padding-left: 1rem;
     margin-bottom: 0px;
   }
   .card1line2 {
-    width: 42%;
+    width: 30vw;
     margin-top: 1rem;
-    margin-left: 1rem;
+    margin-left: 2px;
     margin-bottom: 10px;
-    display: inline-block;
+    /* display: inline-block; */
   }
   .card2line2 {
-    width: 42%;
+    width: 30vw;
     margin-top: 1rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
     margin-bottom: 10px;
-    display: inline-block;
+    /* display: inline-block; */
   }
   .card3line2 {
-    width: 42%;
+    width: 30vw;
     margin-top: 1rem;
     margin-left: 1rem;
     margin-bottom: 10px;
-    display: inline-block;
+    /* display: inline-block; */
   }
   .card1line3 {
-    width: 42%;
+    width: 30vw;
     margin-top: 1rem;
-    margin-left: 1rem;
+    margin-left: 2px;
     margin-bottom: 15px;
-    display: inline-block;
+    /* display: inline-block; */
   }
   .card2line3 {
-    width: 42%;
+    width: 30vw;
     margin-top: 1rem;
-    margin-left: 2rem;
-    margin-bottom: 15px;
-    display: inline-block;
-  }
-  .card3line3 {
-    width: 42%;
-    margin-top: 0rem;
     margin-left: 1rem;
     margin-bottom: 15px;
-    display: inline-block;
+    /* display: inline-block; */
+  }
+  .card3line3 {
+    width: 30vw;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 15px;
+    /* display: inline-block; */
   }
   .card-img-top-1 {
-    height: 160px;
-    width: 154px;
+    height: 105px;
   }
 }
 @media screen and (min-width: 850px) and (max-width: 1400px) {

@@ -77,43 +77,51 @@
     padding-top: 1rem;
     margin-bottom: 0px;
   }
+  .card-title {
+    font-size: 13px;
+  }
   .priceCard {
-    height: 650px;
+    height: 60vw;
     width: 100%;
     background-color: rgb(231, 231, 231);
-    display: block;
+    display: flex;
     padding-top: 5px;
   }
   .card-img-top {
-    height: 10rem;
+    height: 105px;
   }
   .card1line1 {
-    width: 40%;
+    width: 30vw;
     margin-top: 1rem;
-    margin-left: 1rem;
+    margin-left: 2px;
     margin-bottom: 10px;
-    display: inline-block;
+    /* display: inline-block; */
   }
   .card2line1 {
-    width: 40%;
+    width: 30vw;
     margin-top: 1rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
     margin-bottom: 10px;
-    display: inline-block;
+    /* display: inline-block; */
   }
   .card3line1 {
-    width: 40%;
-    margin-top: 0rem;
+    width: 30vw;
+    margin-top: 1rem;
     margin-left: 1rem;
-    margin-bottom: 46px;
-    display: inline-block;
+    margin-bottom: 10px;
+    /* display: inline-block; */
   }
   .star {
-    font-size: 20px;
+    font-size: 15px;
     cursor: pointer;
   }
   .num {
+    font-size: 12px;
+  }
+  .card-body {
     font-size: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
   }
   .fnt {
     font-size: 15px;

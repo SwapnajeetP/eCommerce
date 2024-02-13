@@ -3,7 +3,7 @@ import "./Footerstyle.css";
 export default function Footer() {
   return (
     <div className="btmDiv text-light">
-      <div class="container">
+      <div class="container ">
         <footer class="pt-4 ">
           <div class="row">
             <div class="col-6 col-md-2 mb-3 ">
@@ -47,7 +47,7 @@ export default function Footer() {
               </ul>
             </div>
 
-            <div class="col-6 col-md-2 mb-3 mx-5">
+            <div class="col-6 col-md-2 mb-3 ">
               <h5>CUSTOMER POLICIES</h5>
               <ul class="nav flex-column">
                 <li class="nav-item mb-1">
@@ -102,7 +102,7 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div class="col-6 col-md-2 mb-3 mx-5">
+            <div class="col-6 col-md-2 mb-3">
               <h5>CUSTOMER POLICIES</h5>
               <ul class="nav flex-column">
                 <li class="nav-item mb-1">
@@ -157,7 +157,7 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div class="col-6 col-md-2 mb-3 mx-5">
+            <div class="col-6 col-md-2 mb-3">
               <h5>LET US HELP YOU</h5>
               <ul class="nav flex-column">
                 <li class="nav-item mb-1">
@@ -192,40 +192,42 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div class="col-6 col-md-2 mb-3">
-              <h5>VISITOR LINK</h5>
-              <ul class="nav flex-column">
-                <li class="nav-item mb-1">
-                  <a href="#" class="nav-link p-0 text-light">
-                    Blog
-                  </a>
-                </li>
-                <li class="nav-item mb-1">
-                  <a href="#" class="nav-link p-0 text-light">
-                    Career
-                  </a>
-                </li>
-                <li class="nav-item mb-1">
-                  <a href="#" class="nav-link p-0 text-light">
-                    Site Map
-                  </a>
-                </li>
-                <li class="nav-item mb-1">
-                  <a href="#" class="nav-link p-0 text-light">
-                    Corporate Information
-                  </a>
-                </li>
-                <li class="nav-item mb-1">
-                  <a href="#" class="nav-link p-0 text-light">
-                    White Hat
-                  </a>
-                </li>
-                <li class="nav-item mb-1">
-                  <a href="#" class="nav-link p-0 text-light">
-                    Clear Trip
-                  </a>
-                </li>
-              </ul>
+            <div class="row">
+              <div class="col-6 col-md-2 mb-3">
+                <h5>VISITOR LINK</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-1">
+                    <a href="#" class="nav-link p-0 text-light">
+                      Blog
+                    </a>
+                  </li>
+                  <li class="nav-item mb-1">
+                    <a href="#" class="nav-link p-0 text-light">
+                      Career
+                    </a>
+                  </li>
+                  <li class="nav-item mb-1">
+                    <a href="#" class="nav-link p-0 text-light">
+                      Site Map
+                    </a>
+                  </li>
+                  <li class="nav-item mb-1">
+                    <a href="#" class="nav-link p-0 text-light">
+                      Corporate Information
+                    </a>
+                  </li>
+                  <li class="nav-item mb-1">
+                    <a href="#" class="nav-link p-0 text-light">
+                      White Hat
+                    </a>
+                  </li>
+                  <li class="nav-item mb-1">
+                    <a href="#" class="nav-link p-0 text-light">
+                      Clear Trip
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </footer>

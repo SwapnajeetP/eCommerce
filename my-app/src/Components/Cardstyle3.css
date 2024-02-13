@@ -87,86 +87,83 @@
     margin-bottom: 0px;
   }
   .card-img-top-2 {
-    height: 100px;
-    width: 148px;
+    height: 80px;
   }
   .priceCardThird {
-    padding-right: 1rem;
     padding-top: 1rem;
-    height: 500px;
+    height: 25vh;
     width: 100%;
     background-color: rgb(231, 231, 231);
-    display: block;
+    display: flex;
   }
   .priceCardsmall {
-    padding-right: 1rem;
     padding-top: 1rem;
-    height: 500px;
+    height: 25vh;
     width: 100%;
     background-color: rgb(231, 231, 231);
-    display: block;
+    display: flex;
   }
   .card1line4 {
-    width: 40%;
-    margin-top: 10px;
-    margin-left: 2rem;
-    margin-bottom: 18px;
-    display: inline-block;
+    width: 24vw;
+    margin-top: 5px;
+    margin-left: 2px;
+    margin-bottom: 30px;
+    /* display: inline-block; */
   }
   .card2line4 {
-    width: 40%;
-    margin-top: 10px;
-    margin-left: 2rem;
-    margin-bottom: 16px;
-    display: inline-block;
+    width: 24vw;
+    margin-top: 5px;
+    margin-left: 1rem;
+    margin-bottom: 30px;
+    /* display: inline-block; */
   }
   .card3line4 {
-    width: 40%;
-    margin-top: 10px;
-    margin-left: 2rem;
-    margin-bottom: 18px;
-    display: inline-block;
+    width: 24vw;
+    margin-top: 5px;
+    margin-left: 1rem;
+    margin-bottom: 30px;
+    /* display: inline-block; */
   }
   .card4line4 {
-    width: 40%;
-    margin-top: 10px;
-    margin-left: 2rem;
-    margin-bottom: 16px;
-    display: inline-block;
+    width: 24vw;
+    margin-top: 5px;
+    margin-left: 1rem;
+    margin-bottom: 30px;
+    /* display: inline-block; */
   }
   .card1line5 {
-    width: 30%;
+    width: 24vw;
     margin-top: 5px;
-    margin-left: 1rem;
-    margin-bottom: 18px;
+    margin-left: 2px;
+    margin-bottom: 30px;
   }
   .card2line5 {
-    width: 18rem;
+    width: 24vw;
     margin-top: 5px;
     margin-left: 1rem;
-    margin-bottom: 18px;
+    margin-bottom: 30px;
   }
   .card3line5 {
-    width: 18rem;
+    width: 24vw;
     margin-top: 5px;
     margin-left: 1rem;
-    margin-bottom: 18px;
+    margin-bottom: 30px;
   }
   .card4line5 {
-    width: 18rem;
+    width: 24vw;
     margin-top: 5px;
     margin-left: 1rem;
-    margin-bottom: 18px;
+    margin-bottom: 30px;
   }
   .star-small {
-    font-size: 15px;
+    font-size: 12px;
     cursor: pointer;
   }
   .num-small {
-    font-size: 10px;
+    font-size: 9px;
   }
   .fnt-small {
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 @media screen and (min-width: 850px) and (max-width: 1400px) {
