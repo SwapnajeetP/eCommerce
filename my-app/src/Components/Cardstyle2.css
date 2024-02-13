@@ -58,13 +58,13 @@
 }
 @media screen and (max-width: 850px) {
   .priceCardsecond {
-    height: 60vw;
+    height: 50vw;
     width: 100%;
     background-color: rgb(231, 231, 231);
     display: flex;
   }
   .priceCardanother {
-    height: 60vw;
+    height: 50vw;
     width: 100%;
     background-color: rgb(231, 231, 231);
     display: flex;
@@ -75,48 +75,49 @@
   }
   .card1line2 {
     width: 30vw;
-    margin-top: 1rem;
-    margin-left: 2px;
-    margin-bottom: 10px;
+    margin-top: 2vw;
+    margin-left: 1vw;
+    margin-bottom: 7vw;
     /* display: inline-block; */
   }
   .card2line2 {
     width: 30vw;
-    margin-top: 1rem;
-    margin-left: 1rem;
-    margin-bottom: 10px;
+    margin-top: 2vw;
+    margin-left: 2vw;
+    margin-bottom: 7vw;
     /* display: inline-block; */
   }
   .card3line2 {
     width: 30vw;
-    margin-top: 1rem;
-    margin-left: 1rem;
-    margin-bottom: 10px;
+    margin-top: 2vw;
+    margin-left: 2vw;
+    margin-bottom: 7vw;
     /* display: inline-block; */
   }
   .card1line3 {
     width: 30vw;
-    margin-top: 1rem;
-    margin-left: 2px;
-    margin-bottom: 15px;
+    margin-top: 2vw;
+    margin-left: 1vw;
+    margin-bottom: 7vw;
     /* display: inline-block; */
   }
   .card2line3 {
     width: 30vw;
-    margin-top: 1rem;
-    margin-left: 1rem;
-    margin-bottom: 15px;
+    margin-top: 2vw;
+    margin-left: 2vw;
+    margin-bottom: 7vw;
     /* display: inline-block; */
   }
   .card3line3 {
     width: 30vw;
-    margin-top: 1rem;
-    margin-left: 1rem;
-    margin-bottom: 15px;
+    margin-top: 2vw;
+    margin-left: 2vw;
+    margin-bottom: 7vw;
     /* display: inline-block; */
   }
   .card-img-top-1 {
-    height: 105px;
+    height: 23vw;
+    max-width: 100%;
   }
 }
 @media screen and (min-width: 850px) and (max-width: 1400px) {

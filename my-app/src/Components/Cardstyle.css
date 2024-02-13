@@ -71,6 +71,12 @@
   margin-left: 5px;
   margin-right: 5px;
 }
+@media screen and (max-width: 550px) {
+  .priceCard {
+    width: 550px;
+    overflow: hidden;
+  }
+}
 @media screen and (max-width: 850px) {
   .card1-ttl {
     padding-left: 1rem;
@@ -78,53 +84,62 @@
     margin-bottom: 0px;
   }
   .card-title {
-    font-size: 13px;
+    font-size: 2vw;
   }
+
   .priceCard {
-    height: 60vw;
+    height: 50vw;
     width: 100%;
     background-color: rgb(231, 231, 231);
     display: flex;
-    padding-top: 5px;
+    padding-top: 2vw;
   }
   .card-img-top {
-    height: 105px;
+    height: 23vw;
+    max-width: 100%;
+  }
+  .rateDiv {
+    padding-left: 2vw;
+    margin-bottom: 0vw;
+  }
+  .price {
+    padding-left: 2vw;
   }
   .card1line1 {
     width: 30vw;
-    margin-top: 1rem;
-    margin-left: 2px;
-    margin-bottom: 10px;
+    margin-top: 2vw;
+    margin-left: 1vw;
+    margin-bottom: 7vw;
     /* display: inline-block; */
   }
   .card2line1 {
     width: 30vw;
-    margin-top: 1rem;
-    margin-left: 1rem;
-    margin-bottom: 10px;
+    margin-top: 2vw;
+    margin-left: 2vw;
+    margin-bottom: 7vw;
     /* display: inline-block; */
   }
   .card3line1 {
     width: 30vw;
-    margin-top: 1rem;
-    margin-left: 1rem;
-    margin-bottom: 10px;
+    margin-top: 2vw;
+    margin-left: 2vw;
+    margin-bottom: 7vw;
     /* display: inline-block; */
   }
   .star {
-    font-size: 15px;
+    font-size: 2vw;
     cursor: pointer;
   }
   .num {
-    font-size: 12px;
+    font-size: 2vw;
   }
   .card-body {
-    font-size: 15px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    font-size: 3vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
   }
   .fnt {
-    font-size: 15px;
+    font-size: 2vw;
   }
 }
 @media screen and (min-width: 850px) and (max-width: 1400px) {

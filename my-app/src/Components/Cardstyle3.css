@@ -87,83 +87,84 @@
     margin-bottom: 0px;
   }
   .card-img-top-2 {
-    height: 80px;
+    height: 16vw;
+    width: 100%;
   }
   .priceCardThird {
     padding-top: 1rem;
-    height: 25vh;
+    height: 42vw;
     width: 100%;
     background-color: rgb(231, 231, 231);
     display: flex;
   }
   .priceCardsmall {
     padding-top: 1rem;
-    height: 25vh;
+    height: 42vw;
     width: 100%;
     background-color: rgb(231, 231, 231);
     display: flex;
   }
   .card1line4 {
     width: 24vw;
-    margin-top: 5px;
-    margin-left: 2px;
-    margin-bottom: 30px;
+    margin-top: 1vw;
+    margin-left: 2vw;
+    margin-bottom: 6vw;
     /* display: inline-block; */
   }
   .card2line4 {
     width: 24vw;
-    margin-top: 5px;
-    margin-left: 1rem;
-    margin-bottom: 30px;
+    margin-top: 1vw;
+    margin-left: 2vw;
+    margin-bottom: 6vw;
     /* display: inline-block; */
   }
   .card3line4 {
     width: 24vw;
-    margin-top: 5px;
-    margin-left: 1rem;
-    margin-bottom: 30px;
+    margin-top: 1vw;
+    margin-left: 2vw;
+    margin-bottom: 6vw;
     /* display: inline-block; */
   }
   .card4line4 {
     width: 24vw;
-    margin-top: 5px;
-    margin-left: 1rem;
-    margin-bottom: 30px;
+    margin-top: 1vw;
+    margin-left: 2vw;
+    margin-bottom: 6vw;
     /* display: inline-block; */
   }
   .card1line5 {
     width: 24vw;
-    margin-top: 5px;
-    margin-left: 2px;
-    margin-bottom: 30px;
+    margin-top: 1vw;
+    margin-left: 2vw;
+    margin-bottom: 6vw;
   }
   .card2line5 {
     width: 24vw;
-    margin-top: 5px;
-    margin-left: 1rem;
-    margin-bottom: 30px;
+    margin-top: 1vw;
+    margin-left: 2vw;
+    margin-bottom: 6vw;
   }
   .card3line5 {
     width: 24vw;
-    margin-top: 5px;
-    margin-left: 1rem;
-    margin-bottom: 30px;
+    margin-top: 1vw;
+    margin-left: 2vw;
+    margin-bottom: 6vw;
   }
   .card4line5 {
     width: 24vw;
-    margin-top: 5px;
-    margin-left: 1rem;
-    margin-bottom: 30px;
+    margin-top: 1vw;
+    margin-left: 2vw;
+    margin-bottom: 6vw;
   }
   .star-small {
-    font-size: 12px;
+    font-size: 3vw;
     cursor: pointer;
   }
   .num-small {
-    font-size: 9px;
+    font-size: 2vw;
   }
   .fnt-small {
-    font-size: 10px;
+    font-size: 2vw;
   }
 }
 @media screen and (min-width: 850px) and (max-width: 1400px) {
