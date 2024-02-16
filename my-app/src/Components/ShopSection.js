@@ -3,6 +3,7 @@ import "./ShopSecstyle.css";
 export default function ShopSection() {
   return (
     <>
+      {/* first section of cards */}
       <div className="divttl">
         <h1 className="card1-ttl">Category List</h1>
       </div>
