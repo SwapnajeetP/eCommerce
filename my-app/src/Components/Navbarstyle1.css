@@ -1,50 +1,112 @@
-a.signin {
-  margin-left: 60px !important;
-  margin-top: 0px;
-  font-size: 15px;
+* {
+  font-family: Arial;
+  border: border-box;
+  margin: 0;
+}
+p {
+  margin-bottom: 0;
+}
+.navbar1 {
+  background-color: #0f1111;
   color: white;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
-li.cart {
-  margin-left: 60px !important;
-  margin-top: 10px;
+.navlogo {
+  height: 50px;
+  width: 100px;
 }
-a.cartname {
-  font-size: 15px;
+.logo {
+  /* background-image: url("C:\eCommerce_react\my-app\public\getsitelogo.png"); */
+  background-size: cover;
+  height: 50px;
+  width: 100%;
+}
+.navborder {
+  border: 1.5px transparent;
+}
+.navborder:hover {
+  border: 1.5px solid white;
+}
+.loc {
+  font-size: 1rem;
+  color: #cccccc;
+  margin-left: 3px;
+  margin-bottom: 0px;
+}
+.addicon {
+  display: flex;
+  align-items: center;
+}
+.navsearch {
+  display: flex;
+  width: 620px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: pink;
+  justify-content: space-evenly;
+}
+.searchselect {
+  background-color: #f3f3f3;
+  width: 50px;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+}
+.searchinput {
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.imgflag {
+  width: 2rem;
+  height: 1.7rem;
+}
+.langselect {
+  background-color: #0f1111;
   color: white;
-  margin-top: 10px;
-  margin-left: 5px;
+  border: none;
 }
-input.search {
-  width: 800px;
+
+span {
+  font-size: 0.7rem;
 }
-@media screen and (max-width: 990px) {
-  input.search {
-    width: 100%;
-  }
-  img.img1 {
-    margin-left: 10px;
-  }
-  img.img3 {
-    margin-left: 10px;
-  }
-  img.img2 {
-    margin-left: 20px;
-  }
-  .dropdown {
-    margin-left: 10px;
-  }
-  a.signin {
-    margin-left: 20px !important;
-  }
-  li.cart {
-    margin-left: 10px !important;
-  }
-  a.cartname {
-    margin-left: 20px !important;
-  }
+.signbox {
+  font-size: 0.85rem;
+  font-weight: 700;
 }
-@media screen and (max-width: 1900px) {
-  input.search {
-    width: 100%;
-  }
+.navsearch:hover {
+  border: 2px solid orange;
+}
+.navcart i {
+  font-size: 30px;
+}
+.navcart {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+.panel {
+  height: 40px;
+  background-color: #f3f3f3;
+  display: flex;
+  color: black;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.panelops p {
+  display: inline;
+  margin-left: 25px;
+}
+.panelops {
+  width: 70%;
+  font-size: 0.85rem;
+}
+.paneldeals {
+  font-size: 0.9rem;
 }
