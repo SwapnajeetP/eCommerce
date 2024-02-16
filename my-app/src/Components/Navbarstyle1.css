@@ -110,3 +110,87 @@ span {
 .paneldeals {
   font-size: 0.9rem;
 }
+.sidebar {
+  background-color: white;
+  width: 380px;
+  height: 100%;
+  transition: all 0.5s;
+  position: absolute;
+  z-index: 101;
+  overflow-y: scroll;
+  box-shadow: 2px 2px 30px black;
+  transform: translateX(-390px);
+}
+.hdn-head {
+  background-color: #232f3e;
+  height: 60px;
+  width: 100%;
+  color: white;
+  align-items: center;
+}
+.hdn-head h2 {
+  line-height: 30px;
+}
+.hdn-content h3 {
+  padding: 15px 25px;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(39, 39, 39);
+}
+.hdn-content ul div {
+  list-style: none;
+  display: flex;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 14px;
+  color: rgb(70, 70, 70);
+  padding: 15px 25px;
+  justify-content: space-between;
+}
+ul {
+  padding: 0;
+}
+.hdn-content {
+  border-bottom: 1px solid #d5dbdb;
+}
+
+.menuitem {
+  padding: 13px 20px 13px 36px;
+}
+ul li {
+  margin: 0;
+  list-style: none;
+}
+.arrowright {
+  padding-right: 10px;
+}
+.fa-xmark {
+  top: 20px;
+  left: 400px;
+  position: absolute;
+  font-size: 30px;
+  color: white;
+  z-index: 101;
+  display: none;
+}
+.hdn-content ul div:hover {
+  background-color: rgb(230, 227, 227);
+}
+.black {
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.black.active {
+  width: 100%;
+  z-index: 100;
+}
+.sidebar.active {
+  transform: translateX(0px);
+}
+.fa-xmark.active {
+  display: block;
+}

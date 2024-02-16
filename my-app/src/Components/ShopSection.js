@@ -314,19 +314,19 @@ export default function ShopSection() {
           </div>
           <div className="box-border">
             <div className="rateDiv">
-              <span className="star rated">★</span>
-              <span className="star rated">★</span>
-              <span className="star rated">★</span>
-              <span className="star unrated">★</span>
-              <span className="star unrated">★</span>
-              <span className="num">(679)</span>
+              <span className="star-small rated">★</span>
+              <span className="star-small rated">★</span>
+              <span className="star-small rated">★</span>
+              <span className="star-small unrated">★</span>
+              <span className="star-small unrated">★</span>
+              <span className="num-small">(679)</span>
             </div>
             <hr className="hrline" />
             <div className="price">
-              <span className="fnt strikeprice">
+              <span className="fnt-small strikeprice">
                 <s>$35.90</s>
               </span>{" "}
-              <span className="fnt">$40.89</span>
+              <span className="fnt-small">$40.89</span>
             </div>
           </div>
         </div>
@@ -346,19 +346,19 @@ export default function ShopSection() {
           </div>
           <div className="box-border">
             <div className="rateDiv">
-              <span className="star rated">★</span>
-              <span className="star rated">★</span>
-              <span className="star rated">★</span>
-              <span className="star unrated">★</span>
-              <span className="star unrated">★</span>
-              <span className="num">(679)</span>
+              <span className="star-small rated">★</span>
+              <span className="star-small rated">★</span>
+              <span className="star-small rated">★</span>
+              <span className="star-small unrated">★</span>
+              <span className="star-small unrated">★</span>
+              <span className="num-small">(679)</span>
             </div>
             <hr className="hrline" />
             <div className="price">
-              <span className="fnt strikeprice">
+              <span className="fnt-small strikeprice">
                 <s>$35.90</s>
               </span>{" "}
-              <span className="fnt">$40.89</span>
+              <span className="fnt-small">$40.89</span>
             </div>
           </div>
         </div>
@@ -377,19 +377,19 @@ export default function ShopSection() {
           </div>
           <div className="box-border">
             <div className="rateDiv">
-              <span className="star rated">★</span>
-              <span className="star rated">★</span>
-              <span className="star rated">★</span>
-              <span className="star unrated">★</span>
-              <span className="star unrated">★</span>
-              <span className="num">(679)</span>
+              <span className="star-small rated">★</span>
+              <span className="star-small rated">★</span>
+              <span className="star-small rated">★</span>
+              <span className="star-small unrated">★</span>
+              <span className="star-small unrated">★</span>
+              <span className="num-small">(679)</span>
             </div>
             <hr className="hrline" />
             <div className="price">
-              <span className="fnt strikeprice">
+              <span className="fnt-small strikeprice">
                 <s>$35.90</s>
               </span>{" "}
-              <span className="fnt">$40.89</span>
+              <span className="fnt-small">$40.89</span>
             </div>
           </div>
         </div>
@@ -408,19 +408,19 @@ export default function ShopSection() {
           </div>
           <div className="box-border">
             <div className="rateDiv">
-              <span className="star rated">★</span>
-              <span className="star rated">★</span>
-              <span className="star rated">★</span>
-              <span className="star unrated">★</span>
-              <span className="star unrated">★</span>
-              <span className="num">(679)</span>
+              <span className="star-small rated">★</span>
+              <span className="star-small rated">★</span>
+              <span className="star-small rated">★</span>
+              <span className="star-small unrated">★</span>
+              <span className="star-small unrated">★</span>
+              <span className="num-small">(679)</span>
             </div>
             <hr className="hrline" />
             <div className="price">
-              <span className="fnt strikeprice">
+              <span className="fnt-small strikeprice">
                 <s>$35.90</s>
               </span>{" "}
-              <span className="fnt">$40.89</span>
+              <span className="fnt-small">$40.89</span>
             </div>
           </div>
         </div>
@@ -443,19 +443,19 @@ export default function ShopSection() {
           </div>
           <div className="box-border">
             <div className="rateDiv">
-              <span className="star rated">★</span>
-              <span className="star rated">★</span>
-              <span className="star rated">★</span>
-              <span className="star unrated">★</span>
-              <span className="star unrated">★</span>
-              <span className="num">(679)</span>
+              <span className="star-small rated">★</span>
+              <span className="star-small rated">★</span>
+              <span className="star-small rated">★</span>
+              <span className="star-small unrated">★</span>
+              <span className="star-small unrated">★</span>
+              <span className="num-small">(679)</span>
             </div>
             <hr className="hrline" />
             <div className="price">
-              <span className="fnt strikeprice">
+              <span className="fnt-small strikeprice">
                 <s>$35.90</s>
               </span>{" "}
-              <span className="fnt">$40.89</span>
+              <span className="fnt-small">$40.89</span>
             </div>
           </div>
         </div>
@@ -475,19 +475,19 @@ export default function ShopSection() {
           </div>
           <div className="box-border">
             <div className="rateDiv">
-              <span className="star rated">★</span>
-              <span className="star rated">★</span>
-              <span className="star rated">★</span>
-              <span className="star unrated">★</span>
-              <span className="star unrated">★</span>
-              <span className="num">(679)</span>
+              <span className="star-small rated">★</span>
+              <span className="star-small rated">★</span>
+              <span className="star-small rated">★</span>
+              <span className="star-small unrated">★</span>
+              <span className="star-small unrated">★</span>
+              <span className="num-small">(679)</span>
             </div>
             <hr className="hrline" />
             <div className="price">
-              <span className="fnt strikeprice">
+              <span className="fnt-small strikeprice">
                 <s>$35.90</s>
               </span>{" "}
-              <span className="fnt">$40.89</span>
+              <span className="fnt-small">$40.89</span>
             </div>
           </div>
         </div>
@@ -506,19 +506,19 @@ export default function ShopSection() {
           </div>
           <div className="box-border">
             <div className="rateDiv">
-              <span className="star rated">★</span>
-              <span className="star rated">★</span>
-              <span className="star rated">★</span>
-              <span className="star unrated">★</span>
-              <span className="star unrated">★</span>
-              <span className="num">(679)</span>
+              <span className="star-small rated">★</span>
+              <span className="star-small rated">★</span>
+              <span className="star-small rated">★</span>
+              <span className="star-small unrated">★</span>
+              <span className="star-smallr unrated">★</span>
+              <span className="num-small">(679)</span>
             </div>
             <hr className="hrline" />
             <div className="price">
-              <span className="fnt strikeprice">
+              <span className="fnt-small strikeprice">
                 <s>$35.90</s>
               </span>{" "}
-              <span className="fnt">$40.89</span>
+              <span className="fnt-small">$40.89</span>
             </div>
           </div>
         </div>
@@ -537,19 +537,19 @@ export default function ShopSection() {
           </div>
           <div className="box-border">
             <div className="rateDiv">
-              <span className="star rated">★</span>
-              <span className="star rated">★</span>
-              <span className="star rated">★</span>
-              <span className="star unrated">★</span>
-              <span className="star unrated">★</span>
-              <span className="num">(679)</span>
+              <span className="star-small rated">★</span>
+              <span className="star-small rated">★</span>
+              <span className="star-small rated">★</span>
+              <span className="star-small unrated">★</span>
+              <span className="star-small unrated">★</span>
+              <span className="num-small">(679)</span>
             </div>
             <hr className="hrline" />
             <div className="price">
-              <span className="fnt strikeprice">
+              <span className="fnt-small strikeprice">
                 <s>$35.90</s>
               </span>{" "}
-              <span className="fnt">$40.89</span>
+              <span className="fnt-small">$40.89</span>
             </div>
           </div>
         </div>

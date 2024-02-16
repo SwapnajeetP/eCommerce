@@ -3,6 +3,65 @@ import "./Navbarstyle1.css";
 export default function Navbar() {
   return (
     <div>
+      <div className="sidebar">
+        <div className="hdn-head">
+          <h2>Hello, sign in</h2>
+        </div>
+        <div className="hdn-content">
+          <h3>Trending</h3>
+          <ul>
+            <div>
+              <li>Best Sellers</li>
+              <i class="fa-solid fa-angle-right arrowright"></i>
+            </div>
+            <div>
+              <li>Best Sellers</li>
+              <i class="fa-solid fa-angle-right arrowright"></i>
+            </div>
+            <div>
+              <li>Best Sellers</li>
+              <i class="fa-solid fa-angle-right arrowright"></i>
+            </div>
+          </ul>
+        </div>
+
+        <div className="hdn-content">
+          <h3>Trending</h3>
+          <ul>
+            <div>
+              <li>Best Sellers</li>
+              <i class="fa-solid fa-angle-right arrowright"></i>
+            </div>
+            <div>
+              <li>Best Sellers</li>
+              <i class="fa-solid fa-angle-right arrowright"></i>
+            </div>
+            <div>
+              <li>Best Sellers</li>
+              <i class="fa-solid fa-angle-right arrowright"></i>
+            </div>
+          </ul>
+        </div>
+        <div className="hdn-content">
+          <h3>Trending</h3>
+          <ul>
+            <div>
+              <li>Best Sellers</li>
+              <i class="fa-solid fa-angle-right arrowright"></i>
+            </div>
+            <div>
+              <li>Best Sellers</li>
+              <i class="fa-solid fa-angle-right arrowright"></i>
+            </div>
+            <div>
+              <li>Best Sellers</li>
+              <i class="fa-solid fa-angle-right arrowright"></i>
+            </div>
+          </ul>
+        </div>
+      </div>
+      <div className="black"></div>
+      <i class="fa-solid fa-xmark"></i>
       <header>
         <div className="navbar1">
           <div className="navlogo navborder">
