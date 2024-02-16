@@ -27,7 +27,7 @@ export default function Navbar() {
           </div>
           <div className="language">
             <img
-              src={require("C:/eCommerce_react/my-app/src/Images/india.png")}
+              src={require("C:/eCommerce_web/my-app/src/Images/india.png")}
               alt="flag"
               className="imgflag"
             />
