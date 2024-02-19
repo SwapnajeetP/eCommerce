@@ -8,7 +8,7 @@ export default function ShopSection() {
         <h1 className="card1-ttl">Category List</h1>
       </div>
       <div className="shop-section">
-        <div className="box1 box">
+        <div className="box1s box">
           <div className="box-img">
             <img
               src="https://images.unsplash.com/photo-1598033129183-c4f50c736f10?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -38,7 +38,7 @@ export default function ShopSection() {
             </div>
           </div>
         </div>
-        <div className="box2 box">
+        <div className="box2s box">
           <div className="box-img">
             <img
               src="https://cdn.shopclues.com/images1/thumbnails/104158/320/320/148648730-104158193-1683641323.jpg"
@@ -68,7 +68,7 @@ export default function ShopSection() {
             </div>
           </div>
         </div>
-        <div className="box3 box">
+        <div className="box3s box">
           <div className="box-img">
             <img
               src="https://m.media-amazon.com/images/I/81o+BjfSuDS._SL1500_.jpg"
@@ -104,7 +104,7 @@ export default function ShopSection() {
         <h1 className="card1-ttl">Our latest arrivals</h1>
       </div>
       <div className="shop-section">
-        <div className="box1 box">
+        <div className="box1s box">
           <div className="box-img">
             <img
               src="https://image.lampsplus.com/is/image/b9gt8/7y687cropped.jpg?qlt=70&wid=1200&hei=1200&fmt=jpeg"
@@ -134,7 +134,7 @@ export default function ShopSection() {
             </div>
           </div>
         </div>
-        <div className="box2 box">
+        <div className="box2s box">
           <div className="box-img">
             <img
               src="https://down-ph.img.susercontent.com/file/cbd8e751d1e20e0dbdf8aca764411989"
@@ -164,7 +164,7 @@ export default function ShopSection() {
             </div>
           </div>
         </div>
-        <div className="box3 box">
+        <div className="box3s box">
           <div className="box-img">
             <img
               src="https://homafy.com/wp-content/uploads/2020/07/WhatsApp-Image-2022-04-11-at-12.02.33-PM-1.jpeg"
@@ -199,7 +199,7 @@ export default function ShopSection() {
       {/* 3rd section of cards  */}
 
       <div className="shop-section">
-        <div className="box1 box">
+        <div className="box1s box">
           <div className="box-img">
             <img
               src="https://images.unsplash.com/photo-1581166397057-235af2b3c6dd?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c2NyZXdkcml2ZXJ8ZW58MHx8MHx8fDA%3D"
@@ -229,7 +229,7 @@ export default function ShopSection() {
             </div>
           </div>
         </div>
-        <div className="box2 box">
+        <div className="box2s box">
           <div className="box-img">
             <img
               src="https://m.media-amazon.com/images/I/710oliXPPuL._AC_UF1000,1000_QL80_.jpg"
@@ -259,7 +259,7 @@ export default function ShopSection() {
             </div>
           </div>
         </div>
-        <div className="box3 box">
+        <div className="box3s box">
           <div className="box-img">
             <img
               src="https://static.toiimg.com/photo/88010588.cms"
@@ -309,8 +309,8 @@ export default function ShopSection() {
             />
           </div>
           <div>
-            <span className="featuretext"> Featured </span>
-            <p className="featuretext">Product Title</p>
+            <span className="featuretext featuretext-small"> Featured </span>
+            <p className="featuretext featuretext-small">Product Title</p>
           </div>
           <div className="box-border">
             <div className="rateDiv">
@@ -341,8 +341,8 @@ export default function ShopSection() {
             />
           </div>
           <div>
-            <span className="featuretext"> Featured </span>
-            <p className="featuretext">Product Title</p>
+            <span className="featuretext featuretext-small"> Featured </span>
+            <p className="featuretext featuretext-small">Product Title</p>
           </div>
           <div className="box-border">
             <div className="rateDiv">
@@ -372,8 +372,8 @@ export default function ShopSection() {
             />
           </div>
           <div>
-            <span className="featuretext"> Featured </span>
-            <p className="featuretext">Product Title</p>
+            <span className="featuretext featuretext-small"> Featured </span>
+            <p className="featuretext  featuretext-small">Product Title</p>
           </div>
           <div className="box-border">
             <div className="rateDiv">
@@ -403,8 +403,8 @@ export default function ShopSection() {
             />
           </div>
           <div>
-            <span className="featuretext"> Featured </span>
-            <p className="featuretext">Product Title</p>
+            <span className="featuretext featuretext-small"> Featured </span>
+            <p className="featuretext featuretext-small">Product Title</p>
           </div>
           <div className="box-border">
             <div className="rateDiv">
@@ -438,8 +438,8 @@ export default function ShopSection() {
             />
           </div>
           <div>
-            <span className="featuretext"> Featured </span>
-            <p className="featuretext">Product Title</p>
+            <span className="featuretext featuretext-small"> Featured </span>
+            <p className="featuretext featuretext-small">Product Title</p>
           </div>
           <div className="box-border">
             <div className="rateDiv">
@@ -470,8 +470,8 @@ export default function ShopSection() {
             />
           </div>
           <div>
-            <span className="featuretext"> Featured </span>
-            <p className="featuretext">Product Title</p>
+            <span className="featuretext featuretext-small"> Featured </span>
+            <p className="featuretext featuretext-small">Product Title</p>
           </div>
           <div className="box-border">
             <div className="rateDiv">
@@ -501,8 +501,8 @@ export default function ShopSection() {
             />
           </div>
           <div>
-            <span className="featuretext"> Featured </span>
-            <p className="featuretext">Product Title</p>
+            <span className="featuretext featuretext-small"> Featured </span>
+            <p className="featuretext featuretext-small">Product Title</p>
           </div>
           <div className="box-border">
             <div className="rateDiv">
@@ -510,7 +510,7 @@ export default function ShopSection() {
               <span className="star-small rated">★</span>
               <span className="star-small rated">★</span>
               <span className="star-small unrated">★</span>
-              <span className="star-smallr unrated">★</span>
+              <span className="star-small unrated">★</span>
               <span className="num-small">(679)</span>
             </div>
             <hr className="hrline" />
@@ -532,8 +532,8 @@ export default function ShopSection() {
             />
           </div>
           <div>
-            <span className="featuretext"> Featured </span>
-            <p className="featuretext">Product Title</p>
+            <span className="featuretext featuretext-small"> Featured </span>
+            <p className="featuretext featuretext-small">Product Title</p>
           </div>
           <div className="box-border">
             <div className="rateDiv">

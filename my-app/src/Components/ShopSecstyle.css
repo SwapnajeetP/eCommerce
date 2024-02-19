@@ -26,6 +26,7 @@
   justify-content: space-evenly;
   background-color: #e2e7e6;
   padding-top: 4rem;
+  padding-bottom: 3rem;
 }
 .box {
   height: 450px;
@@ -109,55 +110,215 @@
   border: 2px solid rgb(236, 236, 236);
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1400px) {
   .box {
-    height: 400px;
+    height: 385px;
     /* border: 2px solid black; */
     width: 21%;
     background-color: white;
   }
   .box-small {
-    height: 300px;
+    height: 310px;
     /* border: 2px solid black; */
     width: 15%;
     background-color: white;
   }
   .box-btm {
-    height: 300px;
+    height: 330px;
     /* border: 2px solid black; */
     width: 35.5%;
     background-color: white;
   }
   .img1 {
     width: 100%;
-    height: 260px;
+    height: 235px;
   }
   .img2 {
     width: 100%;
-    height: 175px;
+    height: 180px;
   }
   .img3 {
     width: 100%;
-    height: 150px;
+    height: 180px;
   }
-  .featuretext {
-    font-size: 1.2rem;
+  .featuretext-small {
+    font-size: 1rem;
+    font-weight: 700;
+    padding-left: 1rem;
+  }
+  .star-small {
+    font-size: 22px;
+    cursor: pointer;
+  }
+
+  .num-small {
+    font-size: 17px;
+  }
+  .fnt-small {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .box-small {
+    height: 300px;
+    /* border: 2px solid black; */
+    width: 21%;
+    background-color: white;
+  }
+  .img2 {
+    width: 100%;
+    height: 170px;
+  }
+  .featuretext-small {
+    font-size: 1rem;
+    font-weight: 700;
+    padding-left: 1rem;
+  }
+  .star-small {
+    font-size: 22px;
+    cursor: pointer;
+  }
+  .num-small {
+    font-size: 17px;
+  }
+  .fnt-small {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .card1-ttl {
+    padding-left: 1rem;
+    padding-top: 3rem;
+    margin-bottom: 0px;
+    font-weight: 700;
+  }
+  .shop-section {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-gap: 20px;
+    padding-left: 4rem;
+  }
+
+  .shop-section2 {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-gap: 20px;
+    padding-left: 4rem;
+  }
+  .shop-section3 {
+    display: grid;
+    grid-template-columns: 600px;
+    grid-gap: 20px;
+    padding-left: 4rem;
+  }
+  .box1s,
+  .box2s {
+    height: 385px;
+    /* border: 2px solid black; */
+    width: 80%;
+    background-color: white;
+  }
+  .box3s {
+    margin-left: 12rem;
+    grid-column: 1 / span 2;
+    width: 40%;
+  }
+  .box-small {
+    width: 80%;
+  }
+  .box-btm {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .card1-ttl {
+    padding-left: 1rem;
+    padding-top: 3rem;
+    margin-bottom: 0px;
+    font-weight: 700;
+  }
+
+  .shop-section {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-gap: 20px;
+    padding-left: 2rem;
+  }
+
+  .shop-section2 {
+    display: grid;
+    grid-template-columns: 180px 180px;
+    grid-gap: 20px;
+    padding-left: 4rem;
+  }
+  .shop-section3 {
+    display: grid;
+    grid-template-columns: 350px;
+    grid-gap: 20px;
+    padding-left: 4rem;
+  }
+  .box1s,
+  .box2s {
+    height: 320px;
+    /* border: 2px solid black; */
+    width: 80%;
+    background-color: white;
+  }
+  .box3s {
+    height: 320px;
+    margin-left: 6rem;
+    grid-column: 1 / span 2;
+    width: 40%;
+  }
+
+  .box-small {
+    height: 288px;
+    /* border: 2px solid black; */
+    width: 80%;
+    background-color: white;
+  }
+  .box-btm {
+    height: 300px;
+    /* border: 2px solid black; */
+    width: 80%;
+    background-color: white;
+  }
+  .img1 {
+    width: 100%;
+    height: 180px;
+  }
+  .img2 {
+    width: 100%;
+    height: 160px;
+  }
+  .img3 {
+    width: 100%;
+    height: 160px;
+  }
+  .featuretext-small {
+    font-size: 1rem;
     font-weight: 700;
     padding-left: 1rem;
   }
   .star {
-    font-size: 25px;
+    font-size: 23px;
+    cursor: pointer;
+  }
+  .num {
+    font-size: 16px;
+  }
+  .fnt {
+    font-size: 19px;
+  }
+  .star-small {
+    font-size: 20px;
     cursor: pointer;
   }
 
-  .num {
-    font-size: 20px;
+  .num-small {
+    font-size: 15px;
   }
-  .fnt {
-    font-size: 22px;
-  }
-  .price {
-    padding-left: 8px;
-    height: 2.4rem;
+  .fnt-small {
+    font-size: 18px;
   }
 }
