@@ -191,6 +191,10 @@ export default function Navbar() {
           <div className="navsearch">
             <select className="searchselect" name="" id="">
               <option value="">All</option>
+              <option value="">Fashion</option>
+              <option value="">Electronics</option>
+              <option value="">Home & Kitchen</option>
+              <option value="">Gift ideas</option>
             </select>
             <input className="searchinput" placeholder="search" />
             {/* <div className="searchicon">

@@ -3,15 +3,17 @@ import "./App.css";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import ShopSection from "./Components/ShopSection";
+import Signin from "./Components/Signin";
 import SlideBar from "./Components/SlideBar";
 
 function App() {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar />
       <SlideBar />
       <ShopSection />
-      <Footer />
+      <Footer /> */}
+      <Signin />
     </div>
   );
 }
