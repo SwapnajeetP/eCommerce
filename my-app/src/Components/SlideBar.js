@@ -81,7 +81,7 @@ export default function slideBar() {
       </div>
       <div className="rightDiv">
         <div>
-          <h2>
+          <h2 className="h2ttl">
             Under 700 | Combo Pack|
             <br />
             Multiple Brand & <br />
