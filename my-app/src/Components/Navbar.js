@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Navbarstyle1.css";
 
 export default function Navbar() {
@@ -211,7 +212,7 @@ export default function Navbar() {
             </select>
           </div>
           <div className="signin navborder">
-            <span>Hello, sign in</span>
+            <Link to="/sign">Hello, sign in</Link>
 
             <p className="signbox">Accounts & Lists</p>
           </div>
