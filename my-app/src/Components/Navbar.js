@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Navbarstyle1.css";
+
 export default function Navbar() {
   const [displayStyle, changeDisplayStyle] = useState("none");
 
@@ -110,9 +111,7 @@ export default function Navbar() {
                 </select>
               </div>
               <div className="signin1 navborder">
-                <p>
-                  <span>Hello, sign in</span>
-                </p>
+                <span>Hello, sign in</span>
 
                 <p className="signbox">Accounts & Lists</p>
               </div>
@@ -212,9 +211,7 @@ export default function Navbar() {
             </select>
           </div>
           <div className="signin navborder">
-            <p>
-              <span>Hello, sign in</span>
-            </p>
+            <span>Hello, sign in</span>
 
             <p className="signbox">Accounts & Lists</p>
           </div>

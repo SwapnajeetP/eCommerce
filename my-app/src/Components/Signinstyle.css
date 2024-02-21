@@ -4,15 +4,14 @@
 div {
   display: block;
 }
-body {
-  font-size: 13px;
-  line-height: 19px;
-  color: #111;
-}
+
 a {
   text-decoration: none;
 }
 .mainDiv {
+  font-size: 13px;
+  line-height: 19px;
+  color: #111;
   height: 615px;
   width: 100%;
 }
@@ -24,7 +23,7 @@ a {
 }
 .loginCard {
   width: 348px;
-  height: 360px;
+  height: 380px;
   padding: 20px 26px;
   display: flex;
   flex-direction: column;
@@ -39,6 +38,7 @@ a {
   border-radius: 3px;
   width: 296px;
   height: 31px;
+  margin-bottom: 10px;
 }
 .btn {
   width: 290px;
@@ -92,4 +92,5 @@ hr {
     transparent
   );
   height: 44px;
-} */
+}
+*/
