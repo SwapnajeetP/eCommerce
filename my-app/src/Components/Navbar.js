@@ -176,7 +176,7 @@ export default function Navbar() {
       {/* navbar */}
 
       <header>
-        <div className="navbar1">
+        <div className="navbar1 fixed-top">
           <div className="navlogo navborder">
             <div className="logo">
               <h3>Navbar</h3>
@@ -234,7 +234,7 @@ export default function Navbar() {
 
         {/* panel */}
 
-        <div className="panel">
+        <div className="panel ">
           <div className="all">
             <i className="fa-solid fa-bars" onClick={displayAllbar}></i>
             All
