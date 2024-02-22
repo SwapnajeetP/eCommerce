@@ -73,7 +73,7 @@
 }
 .rateDiv {
   padding-left: 8px;
-  margin-bottom: 2px;
+  margin-bottom: 0px;
 }
 .rated {
   color: orange;
@@ -95,7 +95,7 @@
 }
 .price {
   padding-left: 8px;
-  height: 2.7rem;
+  height: 2.4rem;
 }
 .strikeprice {
   color: lightgrey;

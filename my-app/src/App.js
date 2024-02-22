@@ -5,6 +5,7 @@ import Navbar from "./Components/Navbar";
 import ShopSection from "./Components/ShopSection";
 import Signin from "./Components/Signin";
 import SlideBar from "./Components/SlideBar";
+import data from "./Components/Data";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -20,12 +21,13 @@ function App() {
 }
 
 function Home() {
+  const { productItems } = data;
   return (
     <>
-      <Navbar />
-      <SlideBar />
-      <ShopSection />
-      <Footer />
+      {/* <Navbar />
+      <SlideBar /> */}
+      <ShopSection productItems={productItems} />
+      {/* <Footer /> */}
     </>
   );
 }

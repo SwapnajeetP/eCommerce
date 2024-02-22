@@ -1,6 +1,6 @@
 import React from "react";
 import "./ShopSecstyle.css";
-export default function ShopSection() {
+export default function ShopSection({ productItems }) {
   return (
     <>
       {/* first section of cards */}
@@ -8,6 +8,37 @@ export default function ShopSection() {
         <h1 className="card1-ttl">Category List</h1>
       </div>
       <div className="shop-section">
+        {productItems.map((productItems) => (
+          <div className="box1s box">
+            <div className="box-img">
+              <img src={productItems.img} alt="" className="img1" />
+            </div>
+            <div>
+              <span className="featuretext"> {productItems.name} </span>
+            </div>
+            <div className="box-border">
+              <div className="rateDiv">
+                <span className="star rated">{productItems.rating}</span>
+                <span className="star rated">{productItems.rating}</span>
+                <span className="star rated">{productItems.rating}</span>
+                <span className="star unrated">{productItems.rating}</span>
+                <span className="star unrated">{productItems.rating}</span>
+                <span className="num">(679)</span>
+              </div>
+              <hr className="hrline" />
+              <div className="price">
+                <span className="fnt">${productItems.price}</span>
+              </div>
+              <div>
+                <button type="button" class="btn btn-primary w-100">
+                  Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+      {/* <div className="shop-section">
         <div className="box1s box">
           <div className="box-img">
             <img
@@ -98,7 +129,7 @@ export default function ShopSection() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Second section of cards */}
       <div className="divttl">
         <h1 className="card1-ttl">Our latest arrivals</h1>
