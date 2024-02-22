@@ -223,7 +223,7 @@ export default function Navbar() {
 
             <p className="signbox">& Orders</p>
           </div>
-          <div className="navcart navborder">
+          <div className="navcart">
             <i className="fa-solid fa-cart-shopping"></i>
             <span className="cart-total">0</span>
             Cart
