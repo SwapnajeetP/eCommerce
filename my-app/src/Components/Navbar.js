@@ -225,6 +225,7 @@ export default function Navbar() {
           </div>
           <div className="navcart navborder">
             <i className="fa-solid fa-cart-shopping"></i>
+            <span className="cart-total">0</span>
             Cart
           </div>
           <div className="menu">

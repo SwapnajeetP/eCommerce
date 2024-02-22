@@ -87,7 +87,7 @@ span {
   font-weight: 700;
 }
 .navsearch:hover {
-  border: 2px solid orange;
+  border: 2px solid rgb(235, 198, 131);
 }
 .navcart i {
   font-size: 30px;
@@ -95,6 +95,18 @@ span {
 .navcart {
   font-size: 0.85rem;
   font-weight: 700;
+}
+.cart-total {
+  width: 1.2rem;
+  height: 1.2rem;
+  font-size: 0.8rem;
+  text-align: center;
+  background-color: orange;
+  color: black;
+  margin-top: -5px;
+  margin-left: -8px;
+  border-radius: 100%;
+  position: absolute;
 }
 .panel {
   height: 40px;
@@ -227,7 +239,7 @@ ul li {
 /* all hidemark */
 
 .allhidebar {
-  top: 20px;
+  top: 70px;
   left: 400px;
   position: absolute;
   font-size: 30px;
@@ -276,6 +288,10 @@ ul li {
   }
   .allhidebar {
     top: 5vw;
+    left: 55vw;
+  }
+  .hidemark {
+    top: 8vw;
     left: 55vw;
   }
 }
