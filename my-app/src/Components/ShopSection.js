@@ -13,7 +13,7 @@ export default function ShopSection({ productItems, handleAdd }) {
             <div className="box-img">
               <img src={productItems.img} alt="" className="img1" />
             </div>
-            <div>
+            <div className="box-title">
               <span className="featuretext"> {productItems.name} </span>
             </div>
             <div className="box-border">

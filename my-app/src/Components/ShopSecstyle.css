@@ -28,10 +28,13 @@
   padding-top: 4rem;
   padding-bottom: 3rem;
 }
+.box-title {
+  padding: 5px;
+}
 .box {
   height: 450px;
   /* border: 2px solid black; */
-  width: 21%;
+  width: 19%;
   background-color: white;
 }
 .box-small {
@@ -88,14 +91,14 @@
   font-size: 22px;
 }
 .fnt {
-  font-size: 22px;
+  font-size: 20px;
 }
 .fnt-small {
   font-size: 24px;
 }
 .price {
   padding-left: 8px;
-  height: 2.2rem;
+  height: 1.8rem;
 }
 .strikeprice {
   color: lightgrey;

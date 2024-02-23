@@ -5,6 +5,8 @@ import Cart from "./Components/Cart";
 import Navbar from "./Components/Navbar";
 import ShopSection from "./Components/ShopSection";
 import Signin from "./Components/Signin";
+import SlideBar from "./Components/SlideBar";
+import Footer from "./Components/Footer";
 
 function App() {
   const [cartItems, setCartItems] = useState([]);
@@ -52,10 +54,12 @@ function App() {
           element={
             <>
               <Navbar cartItems={cartItems} />
+              <SlideBar />
               <ShopSection
                 productItems={productItems}
                 handleAdd={handleCartAdd}
               />
+              <Footer />
             </>
           }
         />
