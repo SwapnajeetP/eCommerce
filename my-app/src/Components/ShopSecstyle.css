@@ -95,7 +95,7 @@
 }
 .price {
   padding-left: 8px;
-  height: 2.4rem;
+  height: 2.2rem;
 }
 .strikeprice {
   color: lightgrey;
@@ -109,11 +109,11 @@
 .box-border {
   border: 2px solid rgb(236, 236, 236);
 }
-.btn {
+.addCartbtn {
   height: 40px;
-
-  font-size: 17px !important;
+  font-size: 19px !important;
 }
+
 @media screen and (max-width: 1400px) {
   .box {
     height: 385px;

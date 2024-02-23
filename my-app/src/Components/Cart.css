@@ -35,3 +35,17 @@
   justify-content: space-evenly;
   border-bottom: 1px solid black;
 }
+.cart-item-btn {
+  margin-right: 4px;
+}
+.cart-item-btn:hover {
+  background-color: black;
+  color: white;
+}
+.clearCart {
+  position: absolute;
+  display: flex;
+  justify-content: end;
+  margin-top: 5px;
+  width: 50%;
+}

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbarstyle1.css";
 
-export default function Navbar() {
+export default function Navbar({ cartItems }) {
   const [displayStyle, changeDisplayStyle] = useState("none");
 
   function displaySidebar() {
@@ -226,7 +226,7 @@ export default function Navbar() {
           <div className="navcart">
             <Link to="/cart">
               <i className="fa-solid fa-cart-shopping"></i>
-              <span className="cart-total">0</span>
+              <span className="cart-total">{cartItems.length}</span>
               Cart
             </Link>
           </div>

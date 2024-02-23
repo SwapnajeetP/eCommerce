@@ -10,7 +10,7 @@ function App() {
   const [cartItems, setCartItems] = useState([]);
   const { productItems } = data;
 
-  const handleCart = (productItem) => {
+  const handleCartAdd = (productItem) => {
     const productExist = cartItems.find((item) => item.id === productItem.id);
     if (productExist) {
       setCartItems(
@@ -25,6 +25,25 @@ function App() {
     }
   };
 
+  const handleCartRemove = (productItem) => {
+    const productExist = cartItems.find((item) => item.id === productItem.id);
+
+    if (productExist.quantity === 1) {
+      setCartItems(cartItems.filter((item) => item.id !== productItem.id));
+    } else {
+      setCartItems(
+        cartItems.map((item) =>
+          item.id === productItem.id
+            ? { ...productExist, quantity: productExist.quantity - 1 }
+            : item
+        )
+      );
+    }
+  };
+
+  const ClearCart = () => {
+    setCartItems([]);
+  };
   return (
     <Router>
       <Routes>
@@ -32,10 +51,10 @@ function App() {
           path="/"
           element={
             <>
-              <Navbar />
+              <Navbar cartItems={cartItems} />
               <ShopSection
                 productItems={productItems}
-                handleCart={handleCart}
+                handleAdd={handleCartAdd}
               />
             </>
           }
@@ -43,7 +62,14 @@ function App() {
         <Route path="/sign" element={<Signin />} />
         <Route
           path="/cart"
-          element={<Cart cartItems={cartItems} handleCart={handleCart} />}
+          element={
+            <Cart
+              cartItems={cartItems}
+              handleAdd={handleCartAdd}
+              handleRemove={handleCartRemove}
+              ClearCart={ClearCart}
+            />
+          }
         />
       </Routes>
     </Router>

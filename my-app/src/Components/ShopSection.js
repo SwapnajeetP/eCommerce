@@ -1,6 +1,6 @@
 import React from "react";
 import "./ShopSecstyle.css";
-export default function ShopSection({ productItems, handleCart }) {
+export default function ShopSection({ productItems, handleAdd }) {
   return (
     <>
       {/* first section of cards */}
@@ -26,14 +26,15 @@ export default function ShopSection({ productItems, handleCart }) {
                 <span className="num">(679)</span>
               </div>
               <hr className="hrline" />
+
               <div className="price">
                 <span className="fnt">${productItems.price}</span>
               </div>
               <div>
                 <button
                   type="button"
-                  class="btn btn-primary w-100"
-                  onClick={() => handleCart(productItems)}
+                  class="btn btn-secondary w-100 addCartbtn"
+                  onClick={() => handleAdd(productItems)}
                 >
                   Add to cart
                 </button>
