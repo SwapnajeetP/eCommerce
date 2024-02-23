@@ -1,6 +1,6 @@
 import React from "react";
 import "./ShopSecstyle.css";
-export default function ShopSection({ productItems }) {
+export default function ShopSection({ productItems, handleCart }) {
   return (
     <>
       {/* first section of cards */}
@@ -30,7 +30,11 @@ export default function ShopSection({ productItems }) {
                 <span className="fnt">${productItems.price}</span>
               </div>
               <div>
-                <button type="button" class="btn btn-primary w-100">
+                <button
+                  type="button"
+                  class="btn btn-primary w-100"
+                  onClick={() => handleCart(productItems)}
+                >
                   Add to cart
                 </button>
               </div>

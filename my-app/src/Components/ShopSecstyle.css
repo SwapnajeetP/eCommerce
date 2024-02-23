@@ -64,7 +64,7 @@
   padding-left: 1rem;
 }
 .star {
-  font-size: 28px;
+  font-size: 26px;
   cursor: pointer;
 }
 .star-small {
@@ -82,13 +82,13 @@
   color: lightgrey;
 }
 .num {
-  font-size: 22px;
+  font-size: 20px;
 }
 .num-small {
   font-size: 22px;
 }
 .fnt {
-  font-size: 24px;
+  font-size: 22px;
 }
 .fnt-small {
   font-size: 24px;
@@ -109,7 +109,11 @@
 .box-border {
   border: 2px solid rgb(236, 236, 236);
 }
+.btn {
+  height: 40px;
 
+  font-size: 17px !important;
+}
 @media screen and (max-width: 1400px) {
   .box {
     height: 385px;

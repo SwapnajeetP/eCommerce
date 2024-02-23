@@ -224,9 +224,11 @@ export default function Navbar() {
             <p className="signbox">& Orders</p>
           </div>
           <div className="navcart">
-            <i className="fa-solid fa-cart-shopping"></i>
-            <span className="cart-total">0</span>
-            Cart
+            <Link to="/cart">
+              <i className="fa-solid fa-cart-shopping"></i>
+              <span className="cart-total">0</span>
+              Cart
+            </Link>
           </div>
           <div className="menu">
             <i className="fa-solid fa-bars menu" onClick={displaySidebar}></i>
