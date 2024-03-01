@@ -41,7 +41,7 @@
 .box-small {
   height: 390px;
   /* border: 2px solid black; */
-  width: 250px;
+  width: 260px;
   background-color: white;
   margin: 40px 50px;
 }
@@ -117,6 +117,7 @@
 .addCartbtn {
   height: 40px;
   font-size: 19px !important;
+  border-radius: 0%;
 }
 
 @media screen and (max-width: 1400px) {

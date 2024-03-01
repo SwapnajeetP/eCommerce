@@ -103,7 +103,7 @@ export default function Navbar({ cartItems }) {
 
               <div className="language1">
                 <img
-                  src={require("C:/eCommerce_web/my-app/src/Images/india.png")}
+                  src={require("C:/MyFolder/eCommerce_web/my-app/src/Images/india.png")}
                   alt="flag"
                   className="imgflag"
                 />
@@ -143,7 +143,7 @@ export default function Navbar({ cartItems }) {
 
             <div className="language1">
               <img
-                src={require("C:/eCommerce_web/my-app/src/Images/india.png")}
+                src={require("C:/MyFolder/eCommerce_web/my-app/src/Images/india.png")}
                 alt="flag"
                 className="imgflag"
               />
@@ -203,7 +203,7 @@ export default function Navbar({ cartItems }) {
           </div>
           <div className="language">
             <img
-              src={require("C:/eCommerce_web/my-app/src/Images/india.png")}
+              src={require("C:/MyFolder/eCommerce_web/my-app/src/Images/india.png")}
               alt="flag"
               className="imgflag"
             />
