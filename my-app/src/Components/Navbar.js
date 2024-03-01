@@ -103,7 +103,7 @@ export default function Navbar() {
 
               <div className="language1">
                 <img
-                  src={require("C:/eCommerce_web/my-app/src/Images/india.png")}
+                  src={require("C:/MyFolder/eCommerce_web/my-app/src/Images/india.png")}
                   alt="flag"
                   className="imgflag"
                 />
@@ -129,47 +129,6 @@ export default function Navbar() {
               </div>
             </ul>
           </div>
-        </div>
-      </div>
-      <div className="navsidebar" style={{ display: displayStyle }}>
-        <div className="content">
-          <ul>
-            <div className="navaddress1 navborder">
-              <div className="addicon">
-                <i className="fa-solid fa-location-dot"></i>
-                <p className="loc">GPS Location</p>
-              </div>
-            </div>
-
-            <div className="language1">
-              <img
-                src={require("C:/eCommerce_web/my-app/src/Images/india.png")}
-                alt="flag"
-                className="imgflag"
-              />
-              <select className="langselect" name="" id="">
-                <option value="">EN</option>
-              </select>
-            </div>
-            <div className="signin1 navborder">
-              <p>
-                <span>Hello, sign in</span>
-              </p>
-
-              <p className="signbox">Accounts & Lists</p>
-            </div>
-            <div className="signin1 navborder">
-              <p>
-                <span>Return</span>
-              </p>
-
-              <p className="signbox">& Orders</p>
-            </div>
-            <div className="navcart1 navborder">
-              <i className="fa-solid fa-cart-shopping"></i>
-              Cart
-            </div>
-          </ul>
         </div>
       </div>
 
@@ -203,7 +162,7 @@ export default function Navbar() {
           </div>
           <div className="language">
             <img
-              src={require("C:/eCommerce_web/my-app/src/Images/india.png")}
+              src={require("C:/MyFolder/eCommerce_web/my-app/src/Images/india.png")}
               alt="flag"
               className="imgflag"
             />
