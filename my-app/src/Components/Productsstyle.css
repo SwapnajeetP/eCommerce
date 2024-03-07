@@ -1,0 +1,18 @@
+body {
+  background-color: #e2e7e6;
+}
+.shop-section {
+  display: flex;
+  background-color: #e2e7e6;
+  padding: 1rem 5rem;
+  justify-content: space-evenly;
+}
+.filterbtn {
+  width: 8rem;
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+.catBtn {
+  background-color: #e2e7e6;
+  padding-left: 13rem;
+}

@@ -7,10 +7,14 @@ import ShopSection from "./Components/ShopSection";
 import Signin from "./Components/Signin";
 import SlideBar from "./Components/SlideBar";
 import Footer from "./Components/Footer";
+import Products from "./Components/Products";
 
 function App() {
   const [cartItems, setCartItems] = useState([]);
-  const { productItems } = data;
+  // const { productItems } = data;
+  const productItems = data;
+
+  const [filteritems, setfilterItems] = useState(data);
 
   const handleCartAdd = (productItem) => {
     const productExist = cartItems.find((item) => item.id === productItem.id);
@@ -46,6 +50,13 @@ function App() {
   const ClearCart = () => {
     setCartItems([]);
   };
+
+  const filterItem = (catItem) => {
+    const updatedItem = data.filter((item) => {
+      return item.category === catItem;
+    });
+    setfilterItems(updatedItem);
+  };
   return (
     <Router>
       <Routes>
@@ -53,13 +64,26 @@ function App() {
           path="/"
           element={
             <>
-              <Navbar cartItems={cartItems} />
+              <Navbar cartItems={cartItems} filterItem={filterItem} />
               <SlideBar />
               <ShopSection
                 productItems={productItems}
                 handleAdd={handleCartAdd}
               />
               <Footer />
+            </>
+          }
+        />
+        <Route
+          path="/products"
+          element={
+            <>
+              <Navbar cartItems={cartItems} />
+              <Products
+                filterprod={filteritems}
+                handleAdd={handleCartAdd}
+                filterItem={filterItem}
+              />
             </>
           }
         />

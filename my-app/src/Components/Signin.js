@@ -9,7 +9,7 @@ export default function Signin() {
           <h1>Sign in</h1>
           <div className="userinput">
             <label htmlFor="">Email or mobile phone number</label>
-            <input type="email" className="user-in" />
+            <input type="email" className="user-in" autoComplete="off" />
             <label htmlFor="">Password</label>
             <input type="password" className="user-in" />
           </div>

@@ -43,7 +43,7 @@ export default function Cart({
               </button>
             </div>
             <div className="q">Quantity: {cartItems.quantity}</div>
-            <div className="cart-item-price">${cartItems.price}</div>
+            <div className="cart-item-price">${cartItems.price*cartItems.quantity}</div>
           </div>
         ))}
         <div className="clearCart">

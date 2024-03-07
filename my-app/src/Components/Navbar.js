@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbarstyle1.css";
 
-export default function Navbar({ cartItems }) {
+export default function Navbar({ cartItems, filterItem }) {
   const [displayStyle, changeDisplayStyle] = useState("none");
 
   function displaySidebar() {
@@ -19,6 +19,7 @@ export default function Navbar({ cartItems }) {
   function hideAllbar() {
     showAllbar("none");
   }
+
   return (
     <div>
       <div className="sidebarParent" style={{ display: Allbar }}>
@@ -240,10 +241,13 @@ export default function Navbar({ cartItems }) {
         <div className="panel ">
           <div className="all">
             <i className="fa-solid fa-bars" onClick={displayAllbar}></i>
-            All
+            <Link to="/products" className="all-link">
+              {" "}
+              All
+            </Link>
           </div>
           <div className="panelops">
-            <p>Best Sellers</p>
+            <p onClick={() => filterItem("BestSeller")}>Best Sellers</p>
             <p>Today's deals</p>
             <p>Mobiles</p>
             <p>Home & Kitchen</p>
