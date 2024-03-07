@@ -6,6 +6,8 @@ body {
   background-color: #e2e7e6;
   padding: 1rem 5rem;
   justify-content: space-evenly;
+  width: 85%;
+  margin-left: 15%;
 }
 .filterbtn {
   width: 8rem;
@@ -15,4 +17,12 @@ body {
 .catBtn {
   background-color: #e2e7e6;
   padding-left: 13rem;
+}
+.leftProduct {
+  position: absolute;
+  width: 15%;
+  height: 100%;
+  background-color: lightgray;
+  padding-left: 2rem;
+  padding-top: 2rem;
 }
