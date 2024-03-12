@@ -57,6 +57,14 @@ function App() {
     });
     setfilterItems(updatedItem);
   };
+
+  const AllItems = () => {
+    const AllItems = data.map((item) => {
+      return item;
+    });
+    setfilterItems(AllItems);
+  };
+
   return (
     <Router>
       <Routes>
@@ -83,6 +91,7 @@ function App() {
                 filterprod={filteritems}
                 handleAdd={handleCartAdd}
                 filterItem={filterItem}
+                AllItems={AllItems}
               />
             </>
           }

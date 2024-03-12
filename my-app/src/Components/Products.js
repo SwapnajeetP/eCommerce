@@ -1,90 +1,181 @@
-import React, { useState } from "react";
+import React, { useEffect, useReducer, useState } from "react";
+import data from "./Data";
 import "./Productsstyle.css";
 
-export default function Products({ filterprod, handleAdd, filterItem }) {
-  const [home, setHome] = useState(true);
-  const [clothes, setClothes] = useState(true);
-  const [electronics, setElectronics] = useState(true);
-  const [decor, setDecor] = useState(true);
-  const [utility, setUtility] = useState(true);
+const initialState = {
+  sorting_value: "lowest",
+};
 
-  const handleCheck = (data) => {
-    if (data === "home") {
-      if (home == true) {
-        filterItem(data);
-      } else {
-        setHome(false);
-      }
-    }
+const reducer = (state, action) => {
+  let newSortData;
 
-    if (data === "clothes") {
-      if (clothes == true) {
-        filterItem(data);
-      } else {
-        setClothes(false);
-      }
-    }
+  switch (action.type) {
+    case "sortElement":
+      let userSort = document.getElementById("sort");
+      let sortVal = userSort.options[userSort.selectedIndex].value;
 
-    if (data === "electronics") {
-      if (electronics == true) {
-        filterItem(data);
-      } else {
-        setElectronics(false);
-      }
-    }
+      console.log(sortVal);
 
-    if (data === "decor") {
-      if (decor == true) {
-        filterItem(data);
-      } else {
-        setDecor(false);
-      }
-    }
+      return {
+        ...state,
+        sorting_value: sortVal,
+      };
 
-    if (data === "utility") {
-      if (utility == true) {
-        filterItem(data);
-      } else {
-        setUtility(false);
+    case "effectSort":
+      if (state.sorting_value === "lowest") {
+        const sortingProducts = (a, b) => {
+          return a.price - b.price;
+        };
+        newSortData = data.sort(sortingProducts);
       }
-    }
+
+      if (state.sorting_value === "highest") {
+        const sortingProducts = (a, b) => {
+          return b.price - a.price;
+        };
+        newSortData = data.sort(sortingProducts);
+      }
+
+      if (state.sorting_value === "AtoZ") {
+        const sortingProducts = (a, b) => {
+          return a.name.localeCompare(b.name);
+        };
+        newSortData = data.sort(sortingProducts);
+      }
+
+      if (state.sorting_value === "ZtoA") {
+        const sortingProducts = (a, b) => {
+          return b.name.localeCompare(a.name);
+        };
+        newSortData = data.sort(sortingProducts);
+      }
+
+    default:
+      return state;
+  }
+};
+
+export default function Products({
+  filterprod,
+  handleAdd,
+  filterItem,
+  AllItems,
+}) {
+  // const [home, setHome] = useState(true);
+  // const [clothes, setClothes] = useState(true);
+  // const [electronics, setElectronics] = useState(true);
+  // const [decor, setDecor] = useState(true);
+  // const [utility, setUtility] = useState(true);
+
+  // const handleCheck = (data) => {
+  //   if (data === "home") {
+  //     if (home == true) {
+  //       filterItem(data);
+  //     } else {
+  //       setHome(false);
+  //     }
+  //   }
+
+  //   if (data === "clothes") {
+  //     if (clothes == true) {
+  //       filterItem(data);
+  //     } else {
+  //       setClothes(false);
+  //     }
+  //   }
+
+  //   if (data === "electronics") {
+  //     if (electronics == true) {
+  //       filterItem(data);
+  //     } else {
+  //       setElectronics(false);
+  //     }
+  //   }
+
+  //   if (data === "decor") {
+  //     if (decor == true) {
+  //       filterItem(data);
+  //     } else {
+  //       setDecor(false);
+  //     }
+  //   }
+
+  //   if (data === "utility") {
+  //     if (utility == true) {
+  //       filterItem(data);
+  //     } else {
+  //       setUtility(false);
+  //     }
+  //   }
+  // };
+
+  const [state, dispatch] = useReducer(reducer, initialState);
+
+  const sorting = () => {
+    dispatch({ type: "sortElement" });
   };
+
+  useEffect(() => {
+    dispatch({ type: "effectSort" });
+    console.log("Hii");
+  }, [state.sorting_value]);
 
   return (
     <>
-      {/* <div className="catBtn">
-        <button
-          className="btn btn-secondary filterbtn"
-          onClick={() => filterItem("home")}
-        >
-          Home Usage
-        </button>
-        <button
-          className="btn btn-secondary filterbtn"
-          onClick={() => filterItem("clothes")}
-        >
-          Clothes
-        </button>
-        <button
-          className="btn btn-secondary filterbtn"
-          onClick={() => filterItem("electronics")}
-        >
-          Electronics
-        </button>
-        <button
-          className="btn btn-secondary filterbtn"
-          onClick={() => filterItem("decor")}
-        >
-          Decoration
-        </button>
-        <button
-          className="btn btn-secondary filterbtn"
-          onClick={() => filterItem("utility")}
-        >
-          Utility
-        </button>
-      </div> */}
-      <div className="leftProduct">
+      <div className="parent">
+        <div className="catBtn">
+          <button className="btn btn-secondary filterbtn" onClick={AllItems}>
+            All
+          </button>
+
+          <button
+            className="btn btn-secondary filterbtn"
+            onClick={() => filterItem("home")}
+          >
+            Home Usage
+          </button>
+          <button
+            className="btn btn-secondary filterbtn"
+            onClick={() => filterItem("clothes")}
+          >
+            Clothes
+          </button>
+          <button
+            className="btn btn-secondary filterbtn"
+            onClick={() => filterItem("electronics")}
+          >
+            Electronics
+          </button>
+          <button
+            className="btn btn-secondary filterbtn"
+            onClick={() => filterItem("decor")}
+          >
+            Decoration
+          </button>
+          <button
+            className="btn btn-secondary filterbtn"
+            onClick={() => filterItem("utility")}
+          >
+            Utility
+          </button>
+        </div>
+        <div className="sort-section">
+          <label htmlFor="">Sort - </label>
+          <form action="">
+            <select className="select" name="" id="sort" onClick={sorting}>
+              <option value="" disabled></option>
+              <option value="lowest">Low-High</option>
+              <option value="" disabled></option>
+              <option value="highest">High-Low</option>
+              <option value="" disabled></option>
+              <option value="AtoZ">a-z</option>
+              <option value="" disabled></option>
+              <option value="ZtoA">z-a</option>
+            </select>
+          </form>
+        </div>
+      </div>
+      {/* <div className="leftProduct">
         <input
           type="checkbox"
           value={home}
@@ -115,7 +206,7 @@ export default function Products({ filterprod, handleAdd, filterItem }) {
           onChange={() => handleCheck("utility")}
         />{" "}
         Utility <br />
-      </div>
+      </div> */}
       <div className="shop-section">
         {filterprod.map((productItems) => (
           <div className="box1s box">
@@ -137,7 +228,7 @@ export default function Products({ filterprod, handleAdd, filterItem }) {
               <hr className="hrline" />
 
               <div className="price">
-                <span className="fnt">${productItems.price}</span>
+                <span className="fnt">Rs.{productItems.price}</span>
               </div>
               <div>
                 <button

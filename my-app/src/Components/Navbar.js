@@ -243,7 +243,7 @@ export default function Navbar({ cartItems, filterItem }) {
             <i className="fa-solid fa-bars" onClick={displayAllbar}></i>
             <Link to="/products" className="all-link">
               {" "}
-              All
+              All Products
             </Link>
           </div>
           <div className="panelops">
