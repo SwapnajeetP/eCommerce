@@ -50,6 +50,8 @@ const reducer = (state, action) => {
         newSortData = data.sort(sortingProducts);
       }
 
+      return { ...state };
+
     default:
       return state;
   }
@@ -162,7 +164,7 @@ export default function Products({
         <div className="sort-section">
           <label htmlFor="">Sort - </label>
           <form action="">
-            <select className="select" name="" id="sort" onClick={sorting}>
+            <select className="select" name="" id="sort" onChange={sorting}>
               <option value="" disabled></option>
               <option value="lowest">Low-High</option>
               <option value="" disabled></option>
