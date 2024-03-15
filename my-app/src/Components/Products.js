@@ -26,28 +26,28 @@ const reducer = (state, action) => {
         const sortingProducts = (a, b) => {
           return a.price - b.price;
         };
-        newSortData = data.sort(sortingProducts);
+        newSortData = action.payload.sort(sortingProducts);
       }
 
       if (state.sorting_value === "highest") {
         const sortingProducts = (a, b) => {
           return b.price - a.price;
         };
-        newSortData = data.sort(sortingProducts);
+        newSortData = action.payload.sort(sortingProducts);
       }
 
       if (state.sorting_value === "AtoZ") {
         const sortingProducts = (a, b) => {
           return a.name.localeCompare(b.name);
         };
-        newSortData = data.sort(sortingProducts);
+        newSortData = action.payload.sort(sortingProducts);
       }
 
       if (state.sorting_value === "ZtoA") {
         const sortingProducts = (a, b) => {
           return b.name.localeCompare(a.name);
         };
-        newSortData = data.sort(sortingProducts);
+        newSortData = action.payload.sort(sortingProducts);
       }
 
       return { ...state };
@@ -118,8 +118,8 @@ export default function Products({
   };
 
   useEffect(() => {
-    dispatch({ type: "effectSort" });
-    console.log("Hii");
+    dispatch({ type: "effectSort", payload: filterprod });
+    // console.log("Hii");
   }, [state.sorting_value]);
 
   return (
@@ -210,33 +210,33 @@ export default function Products({
         Utility <br />
       </div> */}
       <div className="shop-section">
-        {filterprod.map((productItems) => (
+        {filterprod.map((item) => (
           <div className="box1s box">
             <div className="box-img">
-              <img src={productItems.img} alt="" className="img1" />
+              <img src={item.img} alt="" className="img1" />
             </div>
             <div className="box-title">
-              <span className="featuretext"> {productItems.name} </span>
+              <span className="featuretext"> {item.name} </span>
             </div>
             <div className="box-border">
               <div className="rateDiv">
-                <span className="star rated">{productItems.rating}</span>
-                <span className="star rated">{productItems.rating}</span>
-                <span className="star rated">{productItems.rating}</span>
-                <span className="star unrated">{productItems.rating}</span>
-                <span className="star unrated">{productItems.rating}</span>
+                <span className="star rated">{item.rating}</span>
+                <span className="star rated">{item.rating}</span>
+                <span className="star rated">{item.rating}</span>
+                <span className="star unrated">{item.rating}</span>
+                <span className="star unrated">{item.rating}</span>
                 <span className="num">(679)</span>
               </div>
               <hr className="hrline" />
 
               <div className="price">
-                <span className="fnt">Rs.{productItems.price}</span>
+                <span className="fnt">Rs.{item.price}</span>
               </div>
               <div>
                 <button
                   type="button"
                   class="btn btn-secondary w-100 addCartbtn"
-                  onClick={() => handleAdd(productItems)}
+                  onClick={() => handleAdd(item)}
                 >
                   Add to cart
                 </button>

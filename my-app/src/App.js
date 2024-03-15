@@ -10,11 +10,12 @@ import Footer from "./Components/Footer";
 import Products from "./Components/Products";
 
 function App() {
-  const [cartItems, setCartItems] = useState([]);
   // const { productItems } = data;
   const productItems = data;
 
-  const [filteritems, setfilterItems] = useState(data);
+  const [cartItems, setCartItems] = useState([]);
+
+  const [filteritems, setfilterItems] = useState([...data]);
 
   const handleCartAdd = (productItem) => {
     const productExist = cartItems.find((item) => item.id === productItem.id);
