@@ -5,10 +5,11 @@ div {
   display: block;
 }
 
-a {
+.anchortag {
   text-decoration: none;
+  color: blue;
 }
-.mainDiv {
+.mainSignDiv {
   font-size: 13px;
   line-height: 19px;
   color: #111;
@@ -31,6 +32,7 @@ a {
   border: 1px solid #ddd;
   margin: 20px auto 25px auto;
   border-radius: 8px;
+  background-color: white;
 }
 
 .user-in {

@@ -44,7 +44,7 @@ export default function Cart({
             </div>
             <div className="q">Quantity: {cartItems.quantity}</div>
             <div className="cart-item-price">
-              ${cartItems.price * cartItems.quantity}
+              Rs.{cartItems.price * cartItems.quantity}
             </div>
           </div>
         ))}

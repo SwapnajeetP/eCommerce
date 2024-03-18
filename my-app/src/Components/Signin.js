@@ -3,7 +3,7 @@ import "./Signinstyle.css";
 export default function Signin() {
   return (
     <>
-      <dsiv className="mainDiv">
+      <div className="mainSignDiv">
         <div className="logo">Login Page</div>
         <div className="loginCard">
           <h1>Sign in</h1>
@@ -18,13 +18,19 @@ export default function Signin() {
               Continue
             </button>
             <div className="legaltxt">
-              By continuing, you agree to our <a href="#">Conditions of Use</a>{" "}
-              and <a href="">Privacy Notice</a>
+              By continuing, you agree to our{" "}
+              <a className="anchortag" href="#">
+                Conditions of Use
+              </a>{" "}
+              and{" "}
+              <a className="anchortag" href="">
+                Privacy Notice
+              </a>
             </div>
           </div>
           <div className="help">
             <i className="fa-solid fa-angle-right"></i>
-            <a href="">
+            <a className="anchortag" href="">
               <span>Need help?</span>
             </a>
           </div>
@@ -32,7 +38,7 @@ export default function Signin() {
           <hr />
           <div className="cardbtm">
             forgot username?
-            <a href="">
+            <a className="anchortag" href="">
               <span>Click here</span>
             </a>
           </div>
@@ -44,7 +50,7 @@ export default function Signin() {
           </button>
         </div>
         {/* <div className="gradient"></div> */}
-      </dsiv>
+      </div>
     </>
   );
 }

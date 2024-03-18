@@ -29,7 +29,7 @@ export default function ShopSection({ productItems, handleAdd }) {
               <hr className="hrline" />
 
               <div className="price">
-                <span className="fnt">${productItems.price}</span>
+                <span className="fnt">Rs.{productItems.price}</span>
               </div>
               <div>
                 <button
@@ -72,7 +72,7 @@ export default function ShopSection({ productItems, handleAdd }) {
               <hr className="hrline" />
 
               <div className="price">
-                <span className="fnt">${productItems.price}</span>
+                <span className="fnt">Rs.{productItems.price}</span>
               </div>
               <div>
                 <button
@@ -118,7 +118,7 @@ export default function ShopSection({ productItems, handleAdd }) {
               <hr className="hrline" />
 
               <div className="price">
-                <span className="fnt-small">${productItems.price}</span>
+                <span className="fnt-small">Rs.{productItems.price}</span>
               </div>
               <div>
                 <button
@@ -157,7 +157,7 @@ export default function ShopSection({ productItems, handleAdd }) {
               <hr className="hrline" />
 
               <div className="price">
-                <span className="fnt">${productItems.price}</span>
+                <span className="fnt">Rs.{productItems.price}</span>
               </div>
               <div>
                 <button

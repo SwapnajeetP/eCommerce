@@ -95,12 +95,12 @@ export default function Navbar({ cartItems, filterItem }) {
         <div className="navsidebar">
           <div className="content">
             <ul>
-              <div className="navaddress1 navborder">
+              {/* <div className="navaddress1 navborder">
                 <div className="addicon">
                   <i className="fa-solid fa-location-dot"></i>
                   <p className="loc">GPS Location</p>
                 </div>
-              </div>
+              </div> */}
 
               <div className="language1">
                 <img
@@ -135,13 +135,6 @@ export default function Navbar({ cartItems, filterItem }) {
       <div className="navsidebar" style={{ display: displayStyle }}>
         <div className="content">
           <ul>
-            <div className="navaddress1 navborder">
-              <div className="addicon">
-                <i className="fa-solid fa-location-dot"></i>
-                <p className="loc">GPS Location</p>
-              </div>
-            </div>
-
             <div className="language1">
               <img
                 src={require("C:/MyFolder/eCommerce_web/my-app/src/Images/india.png")}
@@ -180,15 +173,19 @@ export default function Navbar({ cartItems, filterItem }) {
         <div className="navbar1 fixed-top">
           <div className="navlogo navborder">
             <div className="logo">
-              <h3>Navbar</h3>
+              <img
+                src={require("C:/MyFolder/eCommerce_web/my-app/src/Images/apple-touch-icon.png")}
+                alt=""
+                className="imgLogo"
+              />
             </div>
           </div>
-          <div className="navaddress navborder">
+          {/* <div className="navaddress navborder">
             <div className="addicon">
               <i className="fa-solid fa-location-dot"></i>
               <p className="loc">GPS Location</p>
             </div>
-          </div>
+          </div> */}
           <div className="navsearch">
             <select className="searchselect" name="" id="">
               <option value="">All</option>
@@ -247,7 +244,7 @@ export default function Navbar({ cartItems, filterItem }) {
             </Link>
           </div>
           <div className="panelops">
-            <p onClick={() => filterItem("BestSeller")}>Best Sellers</p>
+            <p>Best Sellers</p>
             <p>Today's deals</p>
             <p>Mobiles</p>
             <p>Home & Kitchen</p>

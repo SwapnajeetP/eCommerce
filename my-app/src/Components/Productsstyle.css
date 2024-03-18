@@ -1,6 +1,3 @@
-body {
-  background-color: #e2e7e6;
-}
 .shop-section {
   display: flex;
   background-color: #e2e7e6;
@@ -16,6 +13,7 @@ body {
 }
 .parent {
   display: flex;
+  background-color: #e2e7e6;
 }
 .catBtn {
   background-color: #e2e7e6;
