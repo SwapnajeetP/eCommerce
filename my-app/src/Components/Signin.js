@@ -1,5 +1,7 @@
 import React from "react";
 import "./Signinstyle.css";
+import { Link } from "react-router-dom";
+
 export default function Signin() {
   return (
     <>
@@ -45,9 +47,11 @@ export default function Signin() {
         </div>
         <div className="divbtm">
           <span>New user?</span>
-          <button type="button" className="btn btn-outline-dark">
-            Create your account
-          </button>
+          <Link to="/sign/createAccount">
+            <button type="button" className="btn btn-outline-dark">
+              Create your account
+            </button>
+          </Link>
         </div>
         {/* <div className="gradient"></div> */}
       </div>

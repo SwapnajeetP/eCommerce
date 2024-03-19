@@ -14,7 +14,7 @@ const reducer = (state, action) => {
       let userSort = document.getElementById("sort");
       let sortVal = userSort.options[userSort.selectedIndex].value;
 
-      console.log(sortVal);
+      // console.log(sortVal);
 
       return {
         ...state,
@@ -161,6 +161,7 @@ export default function Products({
             Utility
           </button>
         </div>
+
         <div className="sort-section">
           <label htmlFor="">Sort - </label>
           <form action="">

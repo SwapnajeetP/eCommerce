@@ -8,9 +8,9 @@ import Signin from "./Components/Signin";
 import SlideBar from "./Components/SlideBar";
 import Footer from "./Components/Footer";
 import Products from "./Components/Products";
+import CreateAcc from "./Components/CreateAcc";
 
 function App() {
-  // const { productItems } = data;
   const productItems = data;
 
   const [cartItems, setCartItems] = useState([]);
@@ -109,6 +109,7 @@ function App() {
             />
           }
         />
+        <Route path="/sign/createAccount" element={<CreateAcc />} />
       </Routes>
     </Router>
   );
