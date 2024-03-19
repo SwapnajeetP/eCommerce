@@ -1,5 +1,6 @@
 import React from "react";
 import "./CreateAccstyle.css";
+import { Link } from "react-router-dom";
 
 export default function CreateAcc() {
   return (
@@ -47,7 +48,10 @@ export default function CreateAcc() {
           </button>
         </div>
         <div className="item-grid item-13">
-          Already have an account? Sign in
+          Already have an account?{" "}
+          <Link className="signLink" to="/sign">
+            Sign in
+          </Link>
         </div>
       </div>
     </div>
