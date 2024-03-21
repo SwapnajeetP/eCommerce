@@ -236,7 +236,7 @@ export default function Products({
               <div>
                 <button
                   type="button"
-                  class="btn btn-secondary w-100 addCartbtn"
+                  className="btn btn-secondary w-100 addCartbtn"
                   onClick={() => handleAdd(item)}
                 >
                   Add to cart
