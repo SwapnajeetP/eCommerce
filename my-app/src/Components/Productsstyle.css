@@ -1,10 +1,18 @@
-.shop-section {
-  display: flex;
+.prodContainer {
   background-color: #e2e7e6;
-  padding: 1rem 5rem;
-  justify-content: space-evenly;
-  /* width: 85%;
-  margin-left: 15%; */
+  display: flex;
+  justify-content: center;
+}
+.product-section {
+  width: 88rem;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  row-gap: 1rem;
+  column-gap: 3rem;
+  justify-items: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 .filterbtn {
   width: 8rem;
@@ -16,9 +24,10 @@
   background-color: #e2e7e6;
 }
 .catBtn {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 9rem);
   background-color: #e2e7e6;
-  padding-left: 13rem;
-  display: flex;
+  padding-left: 8rem;
   width: 60%;
 }
 .sort-section {

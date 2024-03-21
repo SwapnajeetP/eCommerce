@@ -210,41 +210,43 @@ export default function Products({
         />{" "}
         Utility <br />
       </div> */}
-      <div className="shop-section">
-        {filterprod.map((item) => (
-          <div className="box1s box">
-            <div className="box-img">
-              <img src={item.img} alt="" className="img1" />
-            </div>
-            <div className="box-title">
-              <span className="featuretext"> {item.name} </span>
-            </div>
-            <div className="box-border">
-              <div className="rateDiv">
-                <span className="star rated">{item.rating}</span>
-                <span className="star rated">{item.rating}</span>
-                <span className="star rated">{item.rating}</span>
-                <span className="star unrated">{item.rating}</span>
-                <span className="star unrated">{item.rating}</span>
-                <span className="num">(679)</span>
+      <div className="prodContainer">
+        <div className="product-section">
+          {filterprod.map((item) => (
+            <div className="box-up">
+              <div className="box-img">
+                <img src={item.img} alt="" className="img1" />
               </div>
-              <hr className="hrline" />
+              <div className="box-title">
+                <span className="featuretext"> {item.name} </span>
+              </div>
+              <div className="box-border">
+                <div className="rateDiv">
+                  <span className="star rated">{item.rating}</span>
+                  <span className="star rated">{item.rating}</span>
+                  <span className="star rated">{item.rating}</span>
+                  <span className="star unrated">{item.rating}</span>
+                  <span className="star unrated">{item.rating}</span>
+                  <span className="num">(679)</span>
+                </div>
+                <hr className="hrline" />
 
-              <div className="price">
-                <span className="fnt">Rs.{item.price}</span>
-              </div>
-              <div>
-                <button
-                  type="button"
-                  className="btn btn-secondary w-100 addCartbtn"
-                  onClick={() => handleAdd(item)}
-                >
-                  Add to cart
-                </button>
+                <div className="price">
+                  <span className="fnt">Rs.{item.price}</span>
+                </div>
+                <div>
+                  <button
+                    type="button"
+                    className="btn btn-secondary w-100 addCartbtn"
+                    onClick={() => handleAdd(item)}
+                  >
+                    Add to cart
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </>
   );
