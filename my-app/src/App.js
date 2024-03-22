@@ -98,7 +98,15 @@ function App() {
             </>
           }
         />
-        <Route path="/sign" element={<Signin />} />
+        <Route
+          path="/sign"
+          element={
+            <>
+              <Navbar cartItems={cartItems} filterItem={filterItem} />
+              <Signin />
+            </>
+          }
+        />
         <Route
           path="/cart"
           element={

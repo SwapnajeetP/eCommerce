@@ -1,5 +1,7 @@
 import React from "react";
 import "./Cart.css";
+import { Link } from "react-router-dom";
+
 export default function Cart({
   cartItems,
   handleAdd,
@@ -8,7 +10,14 @@ export default function Cart({
 }) {
   return (
     <>
-      <div className="cart-head">Shopping Cart</div>
+      <div className="cart-head">
+        <div>
+          <Link to="/">
+            <i className="fa-solid fa-house cartHome"></i> Home
+          </Link>
+        </div>
+        Shopping Cart
+      </div>
       <div className="cart">
         {cartItems.length === 0 && (
           <div className="cart-empty">Cart is Empty</div>

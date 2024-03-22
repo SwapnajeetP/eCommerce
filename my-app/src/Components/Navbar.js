@@ -186,6 +186,11 @@ export default function Navbar({ cartItems, filterItem }) {
               <p className="loc">GPS Location</p>
             </div>
           </div> */}
+          <div>
+            <Link to="/">
+              <i class="fa-solid fa-house"></i> Home
+            </Link>
+          </div>
           <div className="navsearch">
             <select className="searchselect" name="" id="">
               <option value="">All</option>
