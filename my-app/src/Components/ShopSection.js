@@ -1,5 +1,8 @@
 import React from "react";
 import "./ShopSecstyle.css";
+import { Link } from "react-router-dom";
+import data from "./Data";
+
 export default function ShopSection({ productItems, handleAdd }) {
   return (
     <>
@@ -11,9 +14,11 @@ export default function ShopSection({ productItems, handleAdd }) {
         <div className="shop-section1">
           {productItems.slice(0, 3).map((productItems) => (
             <div className="box-up" key={productItems.id}>
-              <div className="box-img">
-                <img src={productItems.img} alt="" className="img1" />
-              </div>
+              <Link to={`/singleproduct/${productItems.id}`}>
+                <div className="box-img">
+                  <img src={productItems.img} alt="" className="img1" />
+                </div>
+              </Link>
               <div className="box-title">
                 <span className="featuretext"> {productItems.name} </span>
               </div>
@@ -55,9 +60,11 @@ export default function ShopSection({ productItems, handleAdd }) {
         <div className="shop-section1">
           {productItems.slice(3, 9).map((productItems) => (
             <div className="box-up" key={productItems.id}>
-              <div className="box-img">
-                <img src={productItems.img} alt="" className="img1" />
-              </div>
+              <Link to={`/singleproduct/${productItems.id}`}>
+                <div className="box-img">
+                  <img src={productItems.img} alt="" className="img1" />
+                </div>
+              </Link>
               <div className="box-title">
                 <span className="featuretext"> {productItems.name} </span>
               </div>
@@ -99,9 +106,11 @@ export default function ShopSection({ productItems, handleAdd }) {
         <div className="shop-section2">
           {productItems.slice(9, 17).map((productItems) => (
             <div className="box-small" key={productItems.id}>
-              <div className="box-img">
-                <img src={productItems.img} alt="" className="img2" />
-              </div>
+              <Link to={`/singleproduct/${productItems.id}`}>
+                <div className="box-img">
+                  <img src={productItems.img} alt="" className="img2" />
+                </div>
+              </Link>
               <div className="box-title">
                 <span className="featuretext"> {productItems.name} </span>
               </div>
@@ -149,9 +158,11 @@ export default function ShopSection({ productItems, handleAdd }) {
         <div className="shop-section3">
           {productItems.slice(17, 19).map((productItems) => (
             <div className="box-btm" key={productItems.id}>
-              <div className="box-img">
-                <img src={productItems.img} alt="" className="img3" />
-              </div>
+              <Link to={`/singleproduct/${productItems.id}`}>
+                <div className="box-img">
+                  <img src={productItems.img} alt="" className="img3" />
+                </div>
+              </Link>
               <div className="box-title">
                 <span className="featuretext"> {productItems.name} </span>
               </div>

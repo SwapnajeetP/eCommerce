@@ -1,6 +1,6 @@
 import React, { useEffect, useReducer, useState } from "react";
-import data from "./Data";
 import "./Productsstyle.css";
+import { Link } from "react-router-dom";
 
 const initialState = {
   sorting_value: "lowest",
@@ -214,9 +214,11 @@ export default function Products({
         <div className="product-section">
           {filterprod.map((item) => (
             <div className="box-up">
-              <div className="box-img">
-                <img src={item.img} alt="" className="img1" />
-              </div>
+              <Link to={`/singleproduct/${item.id}`}>
+                <div className="box-img">
+                  <img src={item.img} alt="" className="img1" />
+                </div>
+              </Link>
               <div className="box-title">
                 <span className="featuretext"> {item.name} </span>
               </div>

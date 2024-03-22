@@ -9,6 +9,7 @@ import SlideBar from "./Components/SlideBar";
 import Footer from "./Components/Footer";
 import Products from "./Components/Products";
 import CreateAcc from "./Components/CreateAcc";
+import Singleproduct from "./Components/Singleproduct";
 
 function App() {
   const productItems = data;
@@ -110,6 +111,19 @@ function App() {
           }
         />
         <Route path="/sign/createAccount" element={<CreateAcc />} />
+        <Route
+          path="/singleproduct/:id"
+          element={
+            <>
+              {" "}
+              <Navbar cartItems={cartItems} />
+              <Singleproduct
+                productItems={productItems}
+                handleAdd={handleCartAdd}
+              />
+            </>
+          }
+        />
       </Routes>
     </Router>
   );
