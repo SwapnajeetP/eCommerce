@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import { Action } from "@remix-run/router";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbarstyle1.css";
 
-export default function Navbar({ cartItems, filterItem }) {
+export default function Navbar({ cartItems, searchFilter }) {
   const [displayStyle, changeDisplayStyle] = useState("none");
 
   function displaySidebar() {
@@ -199,10 +200,11 @@ export default function Navbar({ cartItems, filterItem }) {
               <option value="">Home & Kitchen</option>
               <option value="">Gift ideas</option>
             </select>
-            <input className="searchinput" placeholder="search" />
-            {/* <div className="searchicon">
-              <i className="fa-solid fa-magnifying-glass"></i>
-            </div> */}
+            <input
+              className="searchinput"
+              placeholder="search"
+              onChange={searchFilter}
+            />
           </div>
           <div className="language">
             <img
