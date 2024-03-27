@@ -13,9 +13,7 @@ import Singleproduct from "./Components/Singleproduct";
 
 function App() {
   const [productItems, setProductItems] = useState(data);
-
   const [cartItems, setCartItems] = useState([]);
-
   const [filteritems, setfilterItems] = useState([...data]);
   const [searchTerm, setSearchTerm] = useState("");
 
@@ -75,14 +73,14 @@ function App() {
   };
 
   useEffect(() => {
-    const myData = filteritems.filter((item) => {
+    const myData = data.filter((item) => {
       if (item.name.toLowerCase().includes(searchTerm.toLowerCase())) {
         return item;
       }
     });
     setfilterItems(myData);
 
-    const myMainData = productItems.filter((item) => {
+    const myMainData = data.filter((item) => {
       if (item.name.toLowerCase().includes(searchTerm.toLowerCase())) {
         return item;
       }
