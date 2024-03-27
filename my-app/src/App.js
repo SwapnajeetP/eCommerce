@@ -80,12 +80,7 @@ function App() {
     });
     setfilterItems(myData);
 
-    const myMainData = data.filter((item) => {
-      if (item.name.toLowerCase().includes(searchTerm.toLowerCase())) {
-        return item;
-      }
-    });
-    setProductItems(myMainData);
+    setProductItems(myData);
   }, [searchTerm]);
 
   return (
