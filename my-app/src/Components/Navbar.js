@@ -117,11 +117,12 @@ export default function Navbar({ cartItems, searchFilter }) {
                   <option value="">EN</option>
                 </select>
               </div>
-              <div className="signin1 navborder">
-                <span>Hello, sign in</span>
-
-                <p className="signbox">Accounts & Lists</p>
-              </div>
+              <Link to="/sign">
+                <div className="signin1 navborder">
+                  Hello, sign in
+                  <p className="signbox">Accounts & Lists</p>
+                </div>
+              </Link>
               <div className="signin1 navborder">
                 <p>
                   <span>Return</span>
@@ -129,46 +130,14 @@ export default function Navbar({ cartItems, searchFilter }) {
 
                 <p className="signbox">& Orders</p>
               </div>
-              <div className="navcart1 navborder">
-                <i className="fa-solid fa-cart-shopping"></i>
-                Cart
-              </div>
+              <Link to="/cart">
+                <div className="navcart1 navborder">
+                  <i className="fa-solid fa-cart-shopping"></i>
+                  Cart
+                </div>
+              </Link>
             </ul>
           </div>
-        </div>
-      </div>
-      <div className="navsidebar" style={{ display: displayStyle }}>
-        <div className="content">
-          <ul>
-            <div className="language1">
-              <img
-                src={require("C:/MyFolder/eCommerce_web/my-app/src/Images/india.png")}
-                alt="flag"
-                className="imgflag"
-              />
-              <select className="langselect" name="" id="">
-                <option value="">EN</option>
-              </select>
-            </div>
-            <div className="signin1 navborder">
-              <p>
-                <span>Hello, sign in</span>
-              </p>
-
-              <p className="signbox">Accounts & Lists</p>
-            </div>
-            <div className="signin1 navborder">
-              <p>
-                <span>Return</span>
-              </p>
-
-              <p className="signbox">& Orders</p>
-            </div>
-            <div className="navcart1 navborder">
-              <i className="fa-solid fa-cart-shopping"></i>
-              Cart
-            </div>
-          </ul>
         </div>
       </div>
 
