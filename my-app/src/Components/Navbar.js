@@ -23,10 +23,14 @@ export default function Navbar({ cartItems, searchFilter }) {
 
   return (
     <div>
+      {/* sidebar */}
       <div className="sidebarParent" style={{ display: Allbar }}>
         <div className="sidebar">
           <div className="hdn-head">
-            <h2>Hello, sign in</h2>
+            <Link to="/sign">
+              {" "}
+              <h2>Hello, sign in</h2>
+            </Link>
           </div>
           <div className="hdn-content">
             <h3>Trending</h3>
@@ -85,7 +89,7 @@ export default function Navbar({ cartItems, searchFilter }) {
         <i className="fa-solid fa-xmark allhidebar" onClick={hideAllbar}></i>
       </div>
 
-      {/* navsidebar */}
+      {/* menubar */}
       <i
         className="fa-solid fa-xmark hidemark"
         onClick={hideSidebar}

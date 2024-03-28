@@ -98,7 +98,7 @@ function App() {
                 searchFilter={searchFilter}
                 searchTerm={searchTerm}
               />
-              <SlideBar show={show} />
+              <SlideBar />
               <ShopSection
                 productItems={productItems}
                 handleAdd={handleCartAdd}

@@ -40,9 +40,9 @@ img.imgSale {
     height: 500px;
     margin-left: 0px;
   }
-  /* .slideDiv {
+  .slideDiv {
     display: flex;
-  } */
+  }
   .c-img {
     height: 500px;
     object-fit: content;
@@ -64,9 +64,9 @@ img.imgSale {
     height: 400px;
     margin-left: 0px;
   }
-  /* .slideDiv {
+  .slideDiv {
     display: block;
-  } */
+  }
   .c-img {
     height: 400px;
     object-fit: content;
@@ -104,9 +104,9 @@ img.imgSale {
     height: 400px;
     object-fit: content;
   }
-  /* .slideDiv {
+  .slideDiv {
     display: block;
-  } */
+  }
   .h2ttl {
     font-size: 2.5vw;
   }
