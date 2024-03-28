@@ -187,11 +187,7 @@ export default function Navbar({ cartItems, searchFilter }) {
               <p className="loc">GPS Location</p>
             </div>
           </div> */}
-          <div>
-            <Link to="/">
-              <i className="fa-solid fa-house"></i> Home
-            </Link>
-          </div>
+
           <div className="navsearch">
             <select className="searchselect" name="" id="">
               <option value="">All</option>
@@ -245,12 +241,17 @@ export default function Navbar({ cartItems, searchFilter }) {
         <div className="panel ">
           <div className="all">
             <i className="fa-solid fa-bars" onClick={displayAllbar}></i>
+            <div>
+              <Link to="/" className="all-link">
+                <i className="fa-solid fa-house panelHome"></i> Home
+              </Link>
+            </div>
             <Link to="/products" className="all-link">
               {" "}
               All Products
             </Link>
           </div>
-          <div className="panelops">
+          {/* <div className="panelops">
             <p>Best Sellers</p>
             <p>Today's deals</p>
             <p>Mobiles</p>
@@ -260,7 +261,7 @@ export default function Navbar({ cartItems, searchFilter }) {
           </div>
           <div className="paneldeals">
             New Launches from Mobiles,electronics & more | Shop now
-          </div>
+          </div> */}
         </div>
       </header>
     </div>

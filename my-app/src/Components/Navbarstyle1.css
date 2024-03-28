@@ -12,6 +12,7 @@ a {
 }
 .all-link {
   color: #0f1111;
+  margin-left: 30px;
 }
 .navbar1 {
   background-color: #0f1111;
@@ -115,17 +116,18 @@ span {
   position: absolute;
 }
 .panel {
-  height: 40px;
+  height: 60px;
   background-color: #f3f3f3;
   display: flex;
   color: black;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-items: center;
   margin-top: 60px;
 }
 .all {
   display: flex;
-  margin-left: 2px;
+  margin-left: 5px;
+  font-size: 1.2rem;
 }
 .fa-bars {
   margin-right: 5px;
@@ -136,10 +138,16 @@ span {
 }
 .panelops {
   width: 70%;
-  font-size: 0.85rem;
+  font-size: 1.2rem;
 }
 .paneldeals {
-  font-size: 0.9rem;
+  font-size: 1rem;
+}
+.panelHome {
+  color: #0f1111;
+}
+.LinkHome {
+  color: #0f1111;
 }
 .sidebar {
   background-color: white;
