@@ -16,6 +16,7 @@ function App() {
   const [cartItems, setCartItems] = useState([]);
   const [filteritems, setfilterItems] = useState([...data]);
   const [searchTerm, setSearchTerm] = useState("");
+  const [show, setShow] = useState("flex");
 
   const handleCartAdd = (productItem) => {
     const productExist = cartItems.find((item) => item.id === productItem.id);
@@ -70,6 +71,7 @@ function App() {
     let val = e.target.value;
     setSearchTerm(val);
     console.log(val);
+    setShow("none");
   };
 
   useEffect(() => {
@@ -96,10 +98,11 @@ function App() {
                 searchFilter={searchFilter}
                 searchTerm={searchTerm}
               />
-              <SlideBar />
+              <SlideBar show={show} />
               <ShopSection
                 productItems={productItems}
                 handleAdd={handleCartAdd}
+                show={show}
               />
               <Footer />
             </>

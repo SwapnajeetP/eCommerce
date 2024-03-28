@@ -21,6 +21,7 @@
   row-gap: 1rem;
   column-gap: 3rem;
   justify-items: center;
+  padding-top: 10px;
 }
 .shop-section2 {
   width: 90rem;

@@ -1,9 +1,9 @@
 import "./Slide.css";
 import React from "react";
 
-export default function slideBar() {
+export default function slideBar({ show }) {
   return (
-    <div className="slideDiv">
+    <div className="slideDiv" style={{ display: show }}>
       <div
         id="carouselExampleAutoplaying"
         className="carousel slide"

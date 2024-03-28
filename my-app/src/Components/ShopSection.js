@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-export default function ShopSection({ productItems, handleAdd }) {
+export default function ShopSection({ productItems, handleAdd, show }) {
   const notify = () => {
     toast.success("Item added to cart", {
       position: "top-center",
@@ -13,7 +13,7 @@ export default function ShopSection({ productItems, handleAdd }) {
   return (
     <>
       {/* first section of cards */}
-      <div className="divttl">
+      <div className="divttl" style={{ display: show }}>
         <h1 className="card1-ttl">Category List</h1>
       </div>
       <div className="container1">
@@ -62,7 +62,7 @@ export default function ShopSection({ productItems, handleAdd }) {
 
       {/* Second section of cards */}
 
-      <div className="divttl">
+      <div className="divttl" style={{ display: show }}>
         <h1 className="card1-ttl">Our latest arrivals</h1>
       </div>
       <div className="container1">
@@ -111,8 +111,8 @@ export default function ShopSection({ productItems, handleAdd }) {
 
       {/*section of small cards */}
 
-      <div className="divttl">
-        <h1 className="card1-ttl">Dive into tech mode</h1>
+      <div className="divttl" style={{ display: show }}>
+        <h1 className="card1-ttl">Other products</h1>
       </div>
       <div className="container1">
         <div className="shop-section2">
