@@ -1,6 +1,7 @@
 import React from "react";
 import "./SinglePStyle.css";
 import { useParams } from "react-router";
+import { Link } from "react-router-dom";
 
 export default function Singleproduct({ productItems, handleAdd }) {
   const { id } = useParams();
@@ -37,14 +38,26 @@ export default function Singleproduct({ productItems, handleAdd }) {
                   <hr />
 
                   <br />
-                  <div>
-                    <button
-                      type="button"
-                      className="btn btn-secondary w-100 addCBtn"
-                      onClick={() => handleAdd(item)}
-                    >
-                      Add to cart
-                    </button>
+                  <div className="btnParent">
+                    <div>
+                      <button
+                        type="button"
+                        className="btn btn-secondary w-100 addCBtn"
+                        onClick={() => handleAdd(item)}
+                      >
+                        Add to cart
+                      </button>
+                    </div>
+                    <div>
+                      <Link to="/cart">
+                        <button
+                          type="button"
+                          className="btn btn-secondary w-100 addCBtn"
+                        >
+                          Go to cart
+                        </button>
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>

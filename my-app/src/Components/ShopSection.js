@@ -1,9 +1,15 @@
 import React from "react";
 import "./ShopSecstyle.css";
 import { Link } from "react-router-dom";
-import data from "./Data";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function ShopSection({ productItems, handleAdd }) {
+  const notify = () => {
+    toast.success("Item added to cart", {
+      position: "top-center",
+    });
+  };
   return (
     <>
       {/* first section of cards */}
@@ -40,7 +46,10 @@ export default function ShopSection({ productItems, handleAdd }) {
                   <button
                     type="button"
                     className="btn btn-secondary w-100 addCartbtn"
-                    onClick={() => handleAdd(productItems)}
+                    onClick={() => {
+                      handleAdd(productItems);
+                      notify();
+                    }}
                   >
                     Add to cart
                   </button>
@@ -86,7 +95,10 @@ export default function ShopSection({ productItems, handleAdd }) {
                   <button
                     type="button"
                     className="btn btn-secondary w-100 addCartbtn"
-                    onClick={() => handleAdd(productItems)}
+                    onClick={() => {
+                      handleAdd(productItems);
+                      notify();
+                    }}
                   >
                     Add to cart
                   </button>
@@ -142,7 +154,10 @@ export default function ShopSection({ productItems, handleAdd }) {
                   <button
                     type="button"
                     className="btn btn-secondary w-100 addCartbtn"
-                    onClick={() => handleAdd(productItems)}
+                    onClick={() => {
+                      handleAdd(productItems);
+                      notify();
+                    }}
                   >
                     Add to cart
                   </button>
@@ -184,7 +199,10 @@ export default function ShopSection({ productItems, handleAdd }) {
                   <button
                     type="button"
                     className="btn btn-secondary w-100 addCartbtn"
-                    onClick={() => handleAdd(productItems)}
+                    onClick={() => {
+                      handleAdd(productItems);
+                      notify();
+                    }}
                   >
                     Add to cart
                   </button>
@@ -194,6 +212,7 @@ export default function ShopSection({ productItems, handleAdd }) {
           ))}
         </div>
       </div>
+      <ToastContainer autoClose={1000} />
     </>
   );
 }

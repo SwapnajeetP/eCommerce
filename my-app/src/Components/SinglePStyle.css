@@ -29,7 +29,11 @@
 }
 .addCBtn {
   width: 18rem !important;
+  margin-left: 10px;
 }
 .single-item-btn {
   width: 5rem !important;
+}
+.btnParent {
+  display: flex;
 }

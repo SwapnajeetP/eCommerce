@@ -189,7 +189,7 @@ export default function Navbar({ cartItems, searchFilter }) {
           </div> */}
           <div>
             <Link to="/">
-              <i class="fa-solid fa-house"></i> Home
+              <i className="fa-solid fa-house"></i> Home
             </Link>
           </div>
           <div className="navsearch">
